@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <!--连接应用服务器的设置-->
+  <Appserver>127.0.0.1</Appserver>
+  <Protocol>tcp</Protocol>
+  <Port>9000</Port>
+  <SysConnect>MLTERP</SysConnect>
+  <!--可连接的系统-->
+  <SysNames>
+    <Sys name="主车间" keyConnect="MLTERP" />
+  </SysNames>
+  <!--自定义个性化设置-->
+  <CustomSet>
+   
+ <ShowCompany>0</ShowCompany>
+  </CustomSet> 
+</Configuration>

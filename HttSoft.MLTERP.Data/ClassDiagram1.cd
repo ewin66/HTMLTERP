@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="宋体" Size="9" />
+  <Class Name="HttSoft.MLTERP.DataCtl.ProInputDtsCtl" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>WO\ProInputDtsCtl.cs</FileName>
+      <HashCode>AAQAAAAAIEAAAAAQAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HttSoft.MLTERP.Data.ProInputDts" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>WO\ProInputDts.cs</FileName>
+      <HashCode>IAKgAsAIIAAQBEiYABAAAAgIkUiAgIEAAgBiQCDUiwA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>

@@ -1,0 +1,478 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1385207D-8BEC-4ADE-A186-00C14B044FE4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HTCPCheck</RootNamespace>
+    <AssemblyName>HTCPCheck</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <StartupObject>
+    </StartupObject>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=7.7.0.4, Culture=neutral, PublicKeyToken=5fd520d36328f741, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Charts.v13.2.Core, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>IncludeDll\DevExpress.Charts.v13.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.PivotGrid.v13.2.Core, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>IncludeDll\DevExpress.PivotGrid.v13.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v13.2.Core, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v13.2, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v13.2.Core, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>IncludeDll\DevExpress.Sparkline.v13.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v13.2, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v13.2.UI, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>IncludeDll\DevExpress.Utils.v13.2.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v13.2, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>IncludeDll\DevExpress.XtraBars.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v13.2, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>IncludeDll\DevExpress.XtraCharts.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v13.2.Wizard, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>IncludeDll\DevExpress.XtraCharts.v13.2.Wizard.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v13.2, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v13.2, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>IncludeDll\DevExpress.XtraLayout.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v13.2, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>IncludeDll\DevExpress.XtraNavBar.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v13.2, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v13.2, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v13.2, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>IncludeDll\DevExpress.XtraReports.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v13.2.Extensions, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>IncludeDll\DevExpress.XtraReports.v13.2.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v13.2, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>IncludeDll\DevExpress.XtraTreeList.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraVerticalGrid.v13.2, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>IncludeDll\DevExpress.XtraVerticalGrid.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport, Version=1.2.76.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\MPLERP\IncludeDll\FastReport.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport.Editor, Version=1.2.76.0, Culture=neutral, PublicKeyToken=db7e5ce63278458c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\MPLERP\IncludeDll\FastReport.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="HTERCode, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>IncludeDll\HTERCode.dll</HintPath>
+    </Reference>
+    <Reference Include="HTSystemParamConfig, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="HttSoft.FrameFunc, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\HttSoft.MLTERP.Sys\IncludeDll\HttSoft.FrameFunc.dll</HintPath>
+    </Reference>
+    <Reference Include="HttSoft.Framework, Version=2.0.4269.16898, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\HttSoft.MLTERP.Sys\IncludeDll\HttSoft.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ThoughtWorks.QRCode, Version=1.0.2774.19990, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>IncludeDll\ThoughtWorks.QRCode.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common.cs" />
+    <Compile Include="Entity\BProductCheckDts.cs" />
+    <Compile Include="Entity\BProductCheckDtsCtl.cs" />
+    <Compile Include="Entity\BProductCheckDtsFault.cs" />
+    <Compile Include="Entity\BProductCheckDtsFaultCtl.cs" />
+    <Compile Include="Entity\BProductCheckDtsModifyLog.cs" />
+    <Compile Include="Entity\BProductCheckDtsModifyLogCtl.cs" />
+    <Compile Include="Entity\CDGL.cs" />
+    <Compile Include="Entity\CDGLCtl.cs" />
+    <Compile Include="Entity\CheckOrder.cs" />
+    <Compile Include="Entity\CheckOrderCtl.cs" />
+    <Compile Include="Entity\CheckOrderDts.cs" />
+    <Compile Include="Entity\CheckOrderDtsCtl.cs" />
+    <Compile Include="Entity\CheckOrderISN.cs" />
+    <Compile Include="Entity\CheckOrderISNCtl.cs" />
+    <Compile Include="Entity\CheckOrderISNFault.cs" />
+    <Compile Include="Entity\CheckOrderISNFaultCtl.cs" />
+    <Compile Include="Entity\PackBox.cs" />
+    <Compile Include="Entity\PackBoxCtl.cs" />
+    <Compile Include="Entity\ProductParamSet.cs" />
+    <Compile Include="Entity\Storge.cs">
+      <SubType>
+      </SubType>
+    </Compile>
+    <Compile Include="Entity\StorgeCtl.cs">
+      <SubType>
+      </SubType>
+    </Compile>
+    <Compile Include="Entity\StorgePack.cs" />
+    <Compile Include="Entity\StorgePackCtl.cs" />
+    <Compile Include="Entity\WH.cs" />
+    <Compile Include="Entity\WHCtl.cs" />
+    <Compile Include="frmChecking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChecking.designer.cs">
+      <DependentUpon>frmChecking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCheckOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCheckOrder.designer.cs">
+      <DependentUpon>frmCheckOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCheckOrderEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCheckOrderEdit.designer.cs">
+      <DependentUpon>frmCheckOrderEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCheckOrderISNRpt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCheckOrderISNRpt.designer.cs">
+      <DependentUpon>frmCheckOrderISNRpt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCheckOrderList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCheckOrderList.designer.cs">
+      <DependentUpon>frmCheckOrderList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKeyBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKeyBoard.Designer.cs">
+      <DependentUpon>frmKeyBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoadItemBuy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLoadItemBuy.designer.cs">
+      <DependentUpon>frmLoadItemBuy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoadJYForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLoadJYForm.designer.cs">
+      <DependentUpon>frmLoadJYForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoadWOProcess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLoadWOProcess.designer.cs">
+      <DependentUpon>frmLoadWOProcess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProductCheckDesc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProductCheckDesc.Designer.cs">
+      <DependentUpon>frmProductCheckDesc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProductCheckSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProductCheckSetting.Designer.cs">
+      <DependentUpon>frmProductCheckSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReportManage2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReportManage2.designer.cs">
+      <DependentUpon>frmReportManage2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReportManage2Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReportManage2Edit.designer.cs">
+      <DependentUpon>frmReportManage2Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HTCPCommon.cs" />
+    <Compile Include="HTCPSerialPort.cs" />
+    <Compile Include="Rule\CDGLRule.cs" />
+    <Compile Include="Entity\FormList.cs" />
+    <Compile Include="Entity\FormNCVendor.cs" />
+    <Compile Include="Entity\FormNCVendorCtl.cs" />
+    <Compile Include="Entity\FormNoControl.cs" />
+    <Compile Include="Entity\FormNoControlCtl.cs" />
+    <Compile Include="Entity\IOForm.cs" />
+    <Compile Include="Entity\IOFormCtl.cs" />
+    <Compile Include="Entity\IOFormDts.cs" />
+    <Compile Include="Entity\IOFormDtsCtl.cs" />
+    <Compile Include="Entity\IOFormDtsPack.cs" />
+    <Compile Include="Entity\IOFormDtsPackCtl.cs" />
+    <Compile Include="Entity\PackOrder.cs" />
+    <Compile Include="Entity\PackOrderCtl.cs" />
+    <Compile Include="Entity\PackOrderDts.cs" />
+    <Compile Include="Entity\PackOrderDtsCtl.cs" />
+    <Compile Include="Entity\ReportFile.cs" />
+    <Compile Include="Entity\ReportFileCtl.cs" />
+    <Compile Include="Entity\ReportFileModel.cs" />
+    <Compile Include="Entity\ReportFileModelCtl.cs" />
+    <Compile Include="Entity\ReportFileRule.cs" />
+    <Compile Include="Entity\ReportManage.cs" />
+    <Compile Include="Entity\ReportManageCtl.cs" />
+    <Compile Include="Entity\ReportManageDts.cs" />
+    <Compile Include="Entity\ReportManageDtsCtl.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmChecking.resx">
+      <DependentUpon>frmChecking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCheckOrder.resx">
+      <DependentUpon>frmCheckOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCheckOrderEdit.resx">
+      <DependentUpon>frmCheckOrderEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCheckOrderISNRpt.resx">
+      <DependentUpon>frmCheckOrderISNRpt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCheckOrderList.resx">
+      <DependentUpon>frmCheckOrderList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKeyBoard.resx">
+      <DependentUpon>frmKeyBoard.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLoadItemBuy.resx">
+      <DependentUpon>frmLoadItemBuy.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLoadJYForm.resx">
+      <DependentUpon>frmLoadJYForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLoadWOProcess.resx">
+      <DependentUpon>frmLoadWOProcess.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProductCheckDesc.resx">
+      <DependentUpon>frmProductCheckDesc.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProductCheckSetting.resx">
+      <DependentUpon>frmProductCheckSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReportManage2.resx">
+      <DependentUpon>frmReportManage2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReportManage2Edit.resx">
+      <DependentUpon>frmReportManage2Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Report\FS-主从模板.fr3" />
+    <None Include="Report\RptNew.fr3" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Report\EnumBoxStatus.cs" />
+    <Compile Include="Report\EnumOPDep.cs" />
+    <Compile Include="Report\EnumVendorType.cs" />
+    <Compile Include="Report\FormNoControlEnum.cs" />
+    <Compile Include="Report\SysEntity.cs" />
+    <Compile Include="Rule\BProductCheckDtsFaultRule.cs" />
+    <Compile Include="Rule\BProductCheckDtsModifyLogRule.cs" />
+    <Compile Include="Rule\BProductCheckDtsRule.cs" />
+    <Compile Include="Rule\BProductCheckRule.cs" />
+    <Compile Include="Rule\CheckOrderDtsRule.cs" />
+    <Compile Include="Rule\CheckOrderISNFaultRule.cs" />
+    <Compile Include="Rule\CheckOrderISNRule.cs" />
+    <Compile Include="Rule\CheckOrderRule.cs" />
+    <Compile Include="Rule\FabricProcessRule.cs" />
+    <Compile Include="Rule\FNORelRule.cs" />
+    <Compile Include="Rule\FormNCVendorRule.cs" />
+    <Compile Include="Rule\FormNoControlRule.cs" />
+    <Compile Include="Rule\IOFormDtsPackRule.cs" />
+    <Compile Include="Rule\IOFormDtsRule.cs" />
+    <Compile Include="Rule\IOFormRule.cs" />
+    <Compile Include="Rule\ItemBuyFormRule.cs" />
+    <Compile Include="Rule\PackBoxRule.cs" />
+    <Compile Include="Rule\PackOrderDtsRule.cs" />
+    <Compile Include="Rule\PackOrderRule.cs" />
+    <Compile Include="Rule\ReportFileModelRule.cs" />
+    <Compile Include="Rule\ReportManageDtsRule.cs" />
+    <Compile Include="Rule\ReportManageRule.cs" />
+    <Compile Include="Rule\StorgePackRule.cs" />
+    <Compile Include="Rule\StorgeRule.cs" />
+    <Compile Include="Sys\YesOrNo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="IncludeDll\DevComponents.DotNetBar2.dll" />
+    <Content Include="IncludeDll\DevExpress.Charts.v13.2.Core.dll" />
+    <Content Include="IncludeDll\DevExpress.Data.v13.2.dll" />
+    <Content Include="IncludeDll\DevExpress.PivotGrid.v13.2.Core.dll" />
+    <Content Include="IncludeDll\DevExpress.Printing.v13.2.Core.dll" />
+    <Content Include="IncludeDll\DevExpress.Sparkline.v13.2.Core.dll" />
+    <Content Include="IncludeDll\DevExpress.Utils.v13.2.dll" />
+    <Content Include="IncludeDll\DevExpress.Utils.v13.2.UI.dll" />
+    <Content Include="IncludeDll\DevExpress.XtraBars.v13.2.dll" />
+    <Content Include="IncludeDll\DevExpress.XtraCharts.v13.2.dll" />
+    <Content Include="IncludeDll\DevExpress.XtraCharts.v13.2.Wizard.dll" />
+    <Content Include="IncludeDll\DevExpress.XtraEditors.v13.2.dll" />
+    <Content Include="IncludeDll\DevExpress.XtraGrid.v13.2.dll" />
+    <Content Include="IncludeDll\DevExpress.XtraLayout.v13.2.dll" />
+    <Content Include="IncludeDll\DevExpress.XtraNavBar.v13.2.dll" />
+    <Content Include="IncludeDll\DevExpress.XtraPrinting.v13.2.dll" />
+    <Content Include="IncludeDll\DevExpress.XtraReports.v13.2.dll" />
+    <Content Include="IncludeDll\DevExpress.XtraReports.v13.2.Extensions.dll" />
+    <Content Include="IncludeDll\DevExpress.XtraTreeList.v13.2.dll" />
+    <Content Include="IncludeDll\DevExpress.XtraVerticalGrid.v13.2.dll" />
+    <Content Include="IncludeDll\HTERCode.dll" />
+    <Content Include="IncludeDll\HTSystemParamConfig.dll" />
+    <Content Include="IncludeDll\HttSoft.FrameCore.dll" />
+    <Content Include="IncludeDll\HttSoft.FrameFunc.dll" />
+    <Content Include="IncludeDll\HttSoft.FrameFunc.xml" />
+    <Content Include="IncludeDll\HttSoft.Framework.dll" />
+    <Content Include="IncludeDll\ThoughtWorks.QRCode.dll" />
+    <Content Include="Resources\1 单击.png" />
+    <Content Include="Resources\1 默认.png" />
+    <Content Include="Resources\10 单击.png" />
+    <Content Include="Resources\10 单击1.png" />
+    <Content Include="Resources\10 默认.png" />
+    <Content Include="Resources\10 默认1.png" />
+    <Content Include="Resources\11  点击 .png" />
+    <Content Include="Resources\11默认.png" />
+    <Content Include="Resources\12 点击.png" />
+    <Content Include="Resources\12 默认.png" />
+    <Content Include="Resources\13 订单.png" />
+    <Content Include="Resources\14 码表 单击.png" />
+    <Content Include="Resources\14 默认.png" />
+    <Content Include="Resources\2 单击.png" />
+    <Content Include="Resources\2 默认.png" />
+    <Content Include="Resources\3 单击.png" />
+    <Content Include="Resources\3 默认.png" />
+    <Content Include="Resources\4 单击.png" />
+    <Content Include="Resources\4 默认.png" />
+    <Content Include="Resources\5 默认.png" />
+    <Content Include="Resources\5单击 .png" />
+    <Content Include="Resources\6 单击.png" />
+    <Content Include="Resources\6 默认.png" />
+    <Content Include="Resources\7 单击.png" />
+    <Content Include="Resources\7 默认.png" />
+    <Content Include="Resources\8 单击.png" />
+    <Content Include="Resources\8默认.png" />
+    <Content Include="Resources\9 单击.png" />
+    <Content Include="Resources\9 默认.png" />
+    <Content Include="Resources\A 码数.png" />
+    <Content Include="Resources\a码数 .png" />
+    <Content Include="Resources\a重量 .png" />
+    <Content Include="Resources\b 开剪米数.png" />
+    <Content Include="Resources\B 疵点范围 .png" />
+    <Content Include="Resources\b疵点范围.png" />
+    <Content Include="Resources\c  扣分.png" />
+    <Content Include="Resources\c 扣分 .png" />
+    <Content Include="Resources\c 补码.png" />
+    <Content Include="Resources\小键盘.png" />
+    <Content Include="Resources\屏幕.png" />
+    <Content Include="Resources\背景15.png" />
+    <Content Include="Resources\背景16.png" />
+    <Content Include="Resources\背景17 .png" />
+    <Content Include="Resources\背景17-.png.png" />
+    <Content Include="Resources\背景17.png" />
+    <Content Include="Resources\背景18 .png" />
+    <Content Include="Resources\背景19.png" />
+    <Content Include="Resources\虚拟键盘背景.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HttSoft.WinUIBase\HttSoft.WinUIBase.csproj">
+      <Project>{F73AD8C7-7FA5-4129-81D0-5A01EEF66CC6}</Project>
+      <Name>HttSoft.WinUIBase</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Back\" />
+    <Folder Include="Base\" />
+    <Folder Include="Common\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

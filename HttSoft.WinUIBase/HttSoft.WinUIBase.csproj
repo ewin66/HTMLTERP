@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F73AD8C7-7FA5-4129-81D0-5A01EEF66CC6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HttSoft.WinUIBase</RootNamespace>
+    <AssemblyName>HttSoft.WinUIBase</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=7.7.0.4, Culture=neutral, PublicKeyToken=5fd520d36328f741, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\MPLERP\IncludeDll\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v13.2.Core">
+      <HintPath>..\MPLERP\IncludeDll\DevExpress.Charts.v13.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v13.2">
+      <HintPath>..\MPLERP\IncludeDll\DevExpress.Data.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.PivotGrid.v13.2.Core">
+      <HintPath>..\MPLERP\IncludeDll\DevExpress.PivotGrid.v13.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v13.2.Core">
+      <HintPath>..\MPLERP\IncludeDll\DevExpress.Printing.v13.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v13.2.Core">
+      <HintPath>..\MPLERP\IncludeDll\DevExpress.Sparkline.v13.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v13.2">
+      <HintPath>..\MPLERP\IncludeDll\DevExpress.Utils.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v13.2.UI">
+      <HintPath>..\MPLERP\IncludeDll\DevExpress.Utils.v13.2.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v13.2">
+      <HintPath>..\MPLERP\IncludeDll\DevExpress.XtraBars.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v13.2">
+      <HintPath>..\MPLERP\IncludeDll\DevExpress.XtraCharts.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v13.2.Wizard">
+      <HintPath>..\MPLERP\IncludeDll\DevExpress.XtraCharts.v13.2.Wizard.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v13.2">
+      <HintPath>..\MPLERP\IncludeDll\DevExpress.XtraEditors.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v13.2">
+      <HintPath>..\MPLERP\IncludeDll\DevExpress.XtraGrid.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v13.2">
+      <HintPath>..\MPLERP\IncludeDll\DevExpress.XtraLayout.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v13.2">
+      <HintPath>..\MPLERP\IncludeDll\DevExpress.XtraNavBar.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v13.2">
+      <HintPath>..\MPLERP\IncludeDll\DevExpress.XtraPrinting.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v13.2">
+      <HintPath>..\MPLERP\IncludeDll\DevExpress.XtraReports.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v13.2.Extensions">
+      <HintPath>..\MPLERP\IncludeDll\DevExpress.XtraReports.v13.2.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v13.2">
+      <HintPath>..\MPLERP\IncludeDll\DevExpress.XtraTreeList.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraVerticalGrid.v13.2">
+      <HintPath>..\MPLERP\IncludeDll\DevExpress.XtraVerticalGrid.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport, Version=1.2.76.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\MPLERP\IncludeDll\FastReport.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport.Editor, Version=1.2.76.0, Culture=neutral, PublicKeyToken=db7e5ce63278458c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\MPLERP\IncludeDll\FastReport.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="HttSoft.FrameFunc, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\MPLERP\IncludeDll\HttSoft.FrameFunc.dll</HintPath>
+    </Reference>
+    <Reference Include="HttSoft.Framework, Version=2.0.5220.20454, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\MPLERP\IncludeDll\HttSoft.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\frmAPBaseCondition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\frmAPBaseCondition.Designer.cs">
+      <DependentUpon>frmAPBaseCondition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\frmAPBaseHelp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\frmAPBaseHelp.Designer.cs">
+      <DependentUpon>frmAPBaseHelp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\frmAPBaseHelpEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\frmAPBaseHelpEdit.Designer.cs">
+      <DependentUpon>frmAPBaseHelpEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\frmAPBaseLoad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\frmAPBaseLoad.Designer.cs">
+      <DependentUpon>frmAPBaseLoad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\frmAPBaseTool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\frmAPBaseTool.designer.cs">
+      <DependentUpon>frmAPBaseTool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\frmAPBaseTool2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\frmAPBaseTool2.designer.cs">
+      <DependentUpon>frmAPBaseTool2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\frmAPBaseToolEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\frmAPBaseToolEdit.Designer.cs">
+      <DependentUpon>frmAPBaseToolEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\frmAPBaseUIForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\frmAPBaseUIForm.Designer.cs">
+      <DependentUpon>frmAPBaseUIForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\frmAPBaseUIFormEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\frmAPBaseUIFormEdit.Designer.cs">
+      <DependentUpon>frmAPBaseUIFormEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\frmAPBaseUIFourFormEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\frmAPBaseUIFourFormEdit.Designer.cs">
+      <DependentUpon>frmAPBaseUIFourFormEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\frmAPBaseUIGridEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\frmAPBaseUIGridEdit.Designer.cs">
+      <DependentUpon>frmAPBaseUIGridEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\frmAPBaseUIRpt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\frmAPBaseUIRpt.Designer.cs">
+      <DependentUpon>frmAPBaseUIRpt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\frmAPBaseUISaveDts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\frmAPBaseUISaveDts.Designer.cs">
+      <DependentUpon>frmAPBaseUISaveDts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\frmAPBaseUISaveEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\frmAPBaseUISaveEdit.Designer.cs">
+      <DependentUpon>frmAPBaseUISaveEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\frmAPBaseUISin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\frmAPBaseUISin.Designer.cs">
+      <DependentUpon>frmAPBaseUISin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\frmAPBaseUISinEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\frmAPBaseUISinEdit.Designer.cs">
+      <DependentUpon>frmAPBaseUISinEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\WinUIParamSet.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="DataCtl\WFormNoControlRule.cs" />
+    <Compile Include="DataCtl\ReportFileModelRule.cs" />
+    <Compile Include="DataCtl\ReportFileRule.cs" />
+    <Compile Include="DataCtl\ReportManageDtsRule.cs" />
+    <Compile Include="DataCtl\ReportManageRule.cs" />
+    <Compile Include="Data\ReportFile.cs" />
+    <Compile Include="Data\ReportFileCtl.cs" />
+    <Compile Include="Data\ReportFileModel.cs" />
+    <Compile Include="Data\ReportFileModelCtl.cs" />
+    <Compile Include="Data\ReportManage.cs" />
+    <Compile Include="Data\ReportManageCtl.cs" />
+    <Compile Include="Data\ReportManageDts.cs" />
+    <Compile Include="Data\ReportManageDtsCtl.cs" />
+    <Compile Include="Enum\EnumMessage.cs" />
+    <Compile Include="Enum\ReportPrintType.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Report\FastReport.cs" />
+    <Compile Include="Report\FastReportXBase.cs" />
+    <Compile Include="Report\RptDataSrcEntity.cs" />
+    <Compile Include="Sys\frmWinListAttachFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sys\frmWinListAttachFile.Designer.cs">
+      <DependentUpon>frmWinListAttachFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WCommon\GridViewProc.cs" />
+    <Compile Include="WCommon\WCommon.cs" />
+    <Compile Include="WCommon\WUICtrlQry.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Base\frmAPBaseCondition.resx">
+      <DependentUpon>frmAPBaseCondition.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\frmAPBaseHelp.resx">
+      <DependentUpon>frmAPBaseHelp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\frmAPBaseHelpEdit.resx">
+      <DependentUpon>frmAPBaseHelpEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\frmAPBaseLoad.resx">
+      <DependentUpon>frmAPBaseLoad.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\frmAPBaseTool.resx">
+      <DependentUpon>frmAPBaseTool.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\frmAPBaseTool2.resx">
+      <DependentUpon>frmAPBaseTool2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\frmAPBaseToolEdit.resx">
+      <DependentUpon>frmAPBaseToolEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\frmAPBaseUIForm.resx">
+      <DependentUpon>frmAPBaseUIForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\frmAPBaseUIFormEdit.resx">
+      <DependentUpon>frmAPBaseUIFormEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\frmAPBaseUIFourFormEdit.resx">
+      <DependentUpon>frmAPBaseUIFourFormEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\frmAPBaseUIGridEdit.resx">
+      <DependentUpon>frmAPBaseUIGridEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\frmAPBaseUIRpt.resx">
+      <DependentUpon>frmAPBaseUIRpt.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\frmAPBaseUISaveDts.resx">
+      <DependentUpon>frmAPBaseUISaveDts.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\frmAPBaseUISaveEdit.resx">
+      <DependentUpon>frmAPBaseUISaveEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\frmAPBaseUISin.resx">
+      <DependentUpon>frmAPBaseUISin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\frmAPBaseUISinEdit.resx">
+      <DependentUpon>frmAPBaseUISinEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sys\frmWinListAttachFile.resx">
+      <DependentUpon>frmWinListAttachFile.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HttSoft.UCFab\HttSoft.UCFab.csproj">
+      <Project>{E3F2B98E-9DE5-40C0-987F-0676337DB21A}</Project>
+      <Name>HttSoft.UCFab</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

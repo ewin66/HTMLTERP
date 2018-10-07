@@ -1,0 +1,519 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D4F8210E-A818-49BB-9DF9-B83610B7149C}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>HttSoft.MLTERP.DataCtl</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>HttSoft.MLTERP.DataCtl</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>发布\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="ADH\CheckFormDtsRule.cs" />
+    <Compile Include="ADH\CheckFormRule.cs" />
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Att\GoodsPostRule.cs" />
+    <Compile Include="Att\GoodsTransDtsRule.cs" />
+    <Compile Include="Att\GoodsTransRule.cs" />
+    <Compile Include="Att\ItemTestFormDtsRule.cs" />
+    <Compile Include="Att\ItemTestFormRule.cs" />
+    <Compile Include="Att\ProductCheckDtsRule.cs" />
+    <Compile Include="Att\ProductCheckRule.cs" />
+    <Compile Include="Att\VendorTrackRecordRule.cs" />
+    <Compile Include="BBS\InfoMainAttRule.cs" />
+    <Compile Include="BBS\InfoMainHisRule.cs" />
+    <Compile Include="BBS\InfoMainRule.cs" />
+    <Compile Include="BBS\InfoMainShareDtsRule.cs" />
+    <Compile Include="BBS\InfoMainWeiboRule.cs" />
+    <Compile Include="Buy\ColorCompactDtsRule.cs" />
+    <Compile Include="Buy\ItemBuyCapDtsRule.cs" />
+    <Compile Include="Buy\ItemBuyCapExDtsRule.cs" />
+    <Compile Include="Buy\ItemBuyFollowDtsRule.cs" />
+    <Compile Include="Buy\ItemBuyFollowRule.cs" />
+    <Compile Include="Buy\ItemBuyFormDtsRule.cs" />
+    <Compile Include="Buy\ItemBuyFormRule.cs" />
+    <Compile Include="Buy\OthCompactDtsRule.cs" />
+    <Compile Include="Buy\YarnCompactDtsRule.cs" />
+    <Compile Include="CaiWu\CWDuiZhangDtsRule.cs" />
+    <Compile Include="CaiWu\CWDuiZhangRule.cs" />
+    <Compile Include="CaiWu\CWInvoiceDtsRule.cs" />
+    <Compile Include="CaiWu\CWInvoiceRule.cs" />
+    <Compile Include="CaiWu\CWPayRule.cs" />
+    <Compile Include="CaiWu\CWRecRule.cs" />
+    <Compile Include="Class1.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\AddressListDtsRule.cs" />
+    <Compile Include="Data\AddressListRule.cs" />
+    <Compile Include="Data\AuthGrpRule.cs" />
+    <Compile Include="Data\AuthGrpWinListRule.cs" />
+    <Compile Include="Data\AuthGrpWinListSubRule.cs" />
+    <Compile Include="Data\BoardCtl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\BoardRule.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\BrandRule.cs" />
+    <Compile Include="Data\BugFormRule.cs" />
+    <Compile Include="Data\CheckContentDtsRule.cs" />
+    <Compile Include="Data\CheckContentRule.cs" />
+    <Compile Include="Data\CLSFormRule.cs" />
+    <Compile Include="Data\CLSListRule.cs" />
+    <Compile Include="Data\CLSRule.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\ColorManageRule.cs" />
+    <Compile Include="Data\CompanyAccountRule.cs" />
+    <Compile Include="Data\CompanyContactRule.cs" />
+    <Compile Include="Data\CSBGItemDtsRule.cs" />
+    <Compile Include="Data\CSBGItemRule.cs" />
+    <Compile Include="Data\CurrencyRule.cs" />
+    <Compile Include="Data\DeviationDtsRule.cs" />
+    <Compile Include="Data\DeviationRule.cs" />
+    <Compile Include="Data\DutyRule.cs" />
+    <Compile Include="Data\FabricRule.cs" />
+    <Compile Include="Data\FavItemGBRule.cs" />
+    <Compile Include="Data\FNORelRule.cs" />
+    <Compile Include="Data\FollowRule.cs" />
+    <Compile Include="Data\FOPDepRule.cs" />
+    <Compile Include="Data\FormItemMoreRule.cs" />
+    <Compile Include="Data\FormNCVendorRule.cs" />
+    <Compile Include="Data\FVendorFormRule.cs" />
+    <Compile Include="Data\GZNoteDtsRule.cs" />
+    <Compile Include="Data\GZNoteRule.cs" />
+    <Compile Include="Data\ItemAddRule.cs" />
+    <Compile Include="Data\ItemBaseCheckItemRule.cs" />
+    <Compile Include="Data\ItemBaseGYTypeDtsRule.cs" />
+    <Compile Include="Data\ItemBaseGYTypeRule.cs" />
+    <Compile Include="Data\ItemCheckSORule.cs" />
+    <Compile Include="Data\ItemCheckStandardPhyRule.cs" />
+    <Compile Include="Data\ItemClassRule.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\ItemCodeFacDtsRule.cs" />
+    <Compile Include="Data\ItemColorDtsHisRule.cs" />
+    <Compile Include="Data\ItemColorDtsRule.cs" />
+    <Compile Include="Data\ItemCompositeDtsRule.cs" />
+    <Compile Include="Data\ItemDtsRule.cs" />
+    <Compile Include="Data\ItemGBRule.cs" />
+    <Compile Include="Data\ItemGBUPHisRule.cs" />
+    <Compile Include="Data\ItemGreyFabReplaceRule.cs" />
+    <Compile Include="Data\ItemGYFlowDtsRule.cs" />
+    <Compile Include="Data\ItemGYFlowItemDtsRule.cs" />
+    <Compile Include="Data\ItemGYRule.cs" />
+    <Compile Include="Data\ItemHisRule.cs" />
+    <Compile Include="Data\ItemLBDtsRule.cs" />
+    <Compile Include="Data\ItemPicRule.cs" />
+    <Compile Include="Data\ItemRule.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\ItemSampleRule.cs" />
+    <Compile Include="Data\ItemTypeFormRule.cs" />
+    <Compile Include="Data\ItemTypeRule.cs" />
+    <Compile Include="Data\MachineManageRule.cs" />
+    <Compile Include="Data\MLDLRule.cs" />
+    <Compile Include="Data\MLLBRule.cs" />
+    <Compile Include="Data\MLYLRule.cs" />
+    <Compile Include="Data\MsgPhoneRule.cs" />
+    <Compile Include="Data\OPAuthGrpRule.cs" />
+    <Compile Include="Data\OPDepRule.cs" />
+    <Compile Include="Data\OPFamilyRule.cs" />
+    <Compile Include="Data\OPRule.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\OPSaleGroupRule.cs" />
+    <Compile Include="Data\OPWHRule.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\OPWinListRule.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\OPWinListSubRule.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\PayMethodDtsRule.cs" />
+    <Compile Include="Data\PayMethodRule.cs" />
+    <Compile Include="Data\SaleFlowModuleDtsRule.cs" />
+    <Compile Include="Data\SaleFlowModuleRule.cs" />
+    <Compile Include="Data\SaleGroupRule.cs" />
+    <Compile Include="Data\SOContextRule.cs" />
+    <Compile Include="Data\StructureMemberRule.cs" />
+    <Compile Include="Data\StructureRule.cs" />
+    <Compile Include="Data\TeamsDtsRule.cs" />
+    <Compile Include="Data\TeamsRule.cs" />
+    <Compile Include="Data\UpdateWHSinglePriceRule.cs" />
+    <Compile Include="Data\UpdateWHVendorRule.cs" />
+    <Compile Include="Data\VDsignerFileRule.cs" />
+    <Compile Include="Data\VDsignerRule.cs" />
+    <Compile Include="Data\VendorAddressRule.cs" />
+    <Compile Include="Data\VendorAddRule.cs" />
+    <Compile Include="Data\VendorContactRule.cs" />
+    <Compile Include="Data\VendorDesDtsRule.cs" />
+    <Compile Include="Data\VendorDesRule.cs" />
+    <Compile Include="Data\VendorFileRule.cs" />
+    <Compile Include="Data\VendorInSaleOPRule.cs" />
+    <Compile Include="Data\VendorInvoiceDtsRule.cs" />
+    <Compile Include="Data\VendorNewsRule.cs" />
+    <Compile Include="Data\VendorRule.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\VendorSaleOPRule.cs" />
+    <Compile Include="Data\VendorTypeDtsRule.cs" />
+    <Compile Include="Data\VendorTypeFormRule.cs" />
+    <Compile Include="Data\WindowMenuRule.cs" />
+    <Compile Include="Data\WinListFillDateTypeRule.cs" />
+    <Compile Include="Data\WOOtherTypeRule.cs" />
+    <Compile Include="Dev\ColorCardDtsRule.cs" />
+    <Compile Include="Dev\ColorCardRule.cs" />
+    <Compile Include="Dev\ColorSampleDtsRule.cs" />
+    <Compile Include="Dev\ColorSampleRule.cs" />
+    <Compile Include="Dev\GBJCDtsRule.cs" />
+    <Compile Include="Dev\GBJCRule.cs" />
+    <Compile Include="Dev\LYGLDtsRule.cs" />
+    <Compile Include="Dev\LYGLRule.cs" />
+    <Compile Include="Dev\GBJCLRDtsRule.cs" />
+    <Compile Include="Dev\GBJCLRRule.cs" />
+    <Compile Include="Dev\QASampleDtsRule.cs" />
+    <Compile Include="Dev\QASampleRule.cs" />
+    <Compile Include="Dev\SaleOrderInstructDtsRule.cs" />
+    <Compile Include="Dev\SaleOrderInstructRule.cs" />
+    <Compile Include="Dev\SampleDtsRule.cs" />
+    <Compile Include="Dev\SampleRule.cs" />
+    <Compile Include="Dev\SampleSODtsRule.cs" />
+    <Compile Include="Dev\SampleSORule.cs" />
+    <Compile Include="Enum\AttnFinalTypeRule.cs" />
+    <Compile Include="Enum\BoxStatusRule.cs" />
+    <Compile Include="Enum\CompactTypeRule.cs" />
+    <Compile Include="Enum\CompanyTypeRule.cs" />
+    <Compile Include="Enum\DepRule.cs" />
+    <Compile Include="Enum\ExceptionalRule.cs" />
+    <Compile Include="Enum\ExitTypeRule.cs" />
+    <Compile Include="Enum\FinalTypeRule.cs" />
+    <Compile Include="Enum\FormListDBRule.cs" />
+    <Compile Include="Enum\FormListRule.cs" />
+    <Compile Include="Enum\FormNoControlRule.cs" />
+    <Compile Include="Enum\InfoTypeRule.cs" />
+    <Compile Include="Enum\ISSHCheckTypeRule.cs" />
+    <Compile Include="Enum\ItemFinalTypeRule.cs" />
+    <Compile Include="Enum\JSXTypeRule.cs" />
+    <Compile Include="Enum\KSTypeRule.cs" />
+    <Compile Include="Enum\OPMailAlarmRule.cs" />
+    <Compile Include="Enum\MailAlarmTypeRule.cs" />
+    <Compile Include="Enum\OrderLevelRule.cs" />
+    <Compile Include="Enum\OrderStatusRule.cs" />
+    <Compile Include="Enum\OrderStepRule.cs" />
+    <Compile Include="Enum\OrderTypeRule.cs" />
+    <Compile Include="Enum\OutPicTypeRule.cs" />
+    <Compile Include="Enum\ParamSetTypeRule.cs" />
+    <Compile Include="Enum\ProcessLevelRule.cs" />
+    <Compile Include="Enum\RequestTypeRule.cs" />
+    <Compile Include="Enum\SaleProcedureRule.cs" />
+    <Compile Include="Enum\SampleTypeRule.cs" />
+    <Compile Include="Enum\SampleWOTypeRule.cs" />
+    <Compile Include="Enum\SSNExpenseRule.cs" />
+    <Compile Include="Enum\UnitRule.cs" />
+    <Compile Include="Enum\UploadFileTypeRule.cs" />
+    <Compile Include="Enum\UploadPicPropRule.cs" />
+    <Compile Include="Enum\VendorTypeRule.cs" />
+    <Compile Include="Enum\WHCaiWuTypeRule.cs" />
+    <Compile Include="Enum\WHCalMethodRule.cs" />
+    <Compile Include="Enum\WHDZTypeRule.cs" />
+    <Compile Include="Enum\WHFormTypeRule.cs" />
+    <Compile Include="Enum\WHTypeRule.cs" />
+    <Compile Include="Enum\WOFollowFieldSetRule.cs" />
+    <Compile Include="Enum\WOFollowStepRule.cs" />
+    <Compile Include="Enum\WOFollowTypeRule.cs" />
+    <Compile Include="Finance\BVendorAmountRule.cs" />
+    <Compile Include="Finance\CapPlanDtsRule.cs" />
+    <Compile Include="Finance\CapPlanRule.cs" />
+    <Compile Include="Finance\CheckOperationDtsRule.cs" />
+    <Compile Include="Finance\CheckOperationInvDtsRule.cs" />
+    <Compile Include="Finance\CheckOperationPayDtsRule.cs" />
+    <Compile Include="Finance\CheckOperationRule.cs" />
+    <Compile Include="Finance\CostRecordRule.cs" />
+    <Compile Include="Finance\CostRegisterDtsRule.cs" />
+    <Compile Include="Finance\CostRegisterRule.cs" />
+    <Compile Include="Finance\ExpressDtsRule.cs" />
+    <Compile Include="Finance\ExpressRule.cs" />
+    <Compile Include="Finance\FQCRule.cs" />
+    <Compile Include="Finance\InvoiceOperationDtsRule.cs" />
+    <Compile Include="Finance\InvoiceOperationRule.cs" />
+    <Compile Include="Finance\InvoiceYOperationDtsRule.cs" />
+    <Compile Include="Finance\JSVendorAmountRule.cs" />
+    <Compile Include="Finance\PaymentHandleRule.cs" />
+    <Compile Include="Finance\PayRule.cs" />
+    <Compile Include="Finance\ReceivingRule.cs" />
+    <Compile Include="Finance\RecPayDtsRule.cs" />
+    <Compile Include="Finance\RecPayHTDtsRule.cs" />
+    <Compile Include="Finance\RecPayHXDtsRule.cs" />
+    <Compile Include="Finance\RecPayRule.cs" />
+    <Compile Include="Finance\WHAmountCERule.cs" />
+    <Compile Include="Msg\MSGInputDtsRule.cs" />
+    <Compile Include="Msg\MSGInputRule.cs" />
+    <Compile Include="Msg\MSGMainRule.cs" />
+    <Compile Include="Msg\MSGMessageDtsRule.cs" />
+    <Compile Include="Msg\MSGMessageRule.cs" />
+    <Compile Include="Msg\MSGSourceRule.cs" />
+    <Compile Include="Msg\SParamsetRule.cs" />
+    <Compile Include="ReadScan\ISNTempRule.cs" />
+    <Compile Include="ReadScan\PackISNDtsRule.cs" />
+    <Compile Include="ReadScan\PackISNRule.cs" />
+    <Compile Include="Sale\AuditPriceDtsRule.cs" />
+    <Compile Include="Sale\AuditPriceRule.cs" />
+    <Compile Include="Sale\DaoTongDtsRule.cs" />
+    <Compile Include="Sale\DaoTongRule.cs" />
+    <Compile Include="Sale\DYGLRule.cs" />
+    <Compile Include="Sale\FHFormDtsPackRule.cs" />
+    <Compile Include="Sale\FHFormDtsRule.cs" />
+    <Compile Include="Sale\FHFormRule.cs" />
+    <Compile Include="Sale\HandleEventRule.cs" />
+    <Compile Include="Sale\JYOrderDtsInputPackRule.cs" />
+    <Compile Include="Sale\JYOrderDtsRule.cs" />
+    <Compile Include="Sale\JYOrderRule.cs" />
+    <Compile Include="Sale\OperateQuoteDtsRule.cs" />
+    <Compile Include="Sale\OperateQuoteRule.cs" />
+    <Compile Include="Sale\OrderProgressDtsRule.cs" />
+    <Compile Include="Sale\OrderProgressRule.cs" />
+    <Compile Include="Sale\ProductionNoticeBZDtsRule.cs" />
+    <Compile Include="Sale\ProductionNoticeDtsRule.cs" />
+    <Compile Include="Sale\ProductionNoticeHZLDtsRule.cs" />
+    <Compile Include="Sale\ProductionNoticeRSDtsRule.cs" />
+    <Compile Include="Sale\ProductionNoticeRule.cs" />
+    <Compile Include="Sale\ProductionNoticeZZDtsRule.cs" />
+    <Compile Include="Sale\QuotedPriceDtsRule.cs" />
+    <Compile Include="Sale\QuotedPriceRule.cs" />
+    <Compile Include="Sale\SaleOrderCapDtsRule.cs" />
+    <Compile Include="Sale\SaleOrderCapExDtsRule.cs" />
+    <Compile Include="Sale\SaleOrderDtsRule.cs" />
+    <Compile Include="Sale\SaleOrderFabricCompSiteRule.cs" />
+    <Compile Include="Sale\SaleOrderFabricRule.cs" />
+    <Compile Include="Sale\SaleOrderItemRule.cs" />
+    <Compile Include="Sale\SaleOrderJSDtsRule.cs" />
+    <Compile Include="Sale\SaleOrderJSRule.cs" />
+    <Compile Include="Sale\SaleOrderProcedureDtsRule.cs" />
+    <Compile Include="Sale\SaleOrderRule.cs" />
+    <Compile Include="Sale\SaleOrderTColorItemRule.cs" />
+    <Compile Include="Sale\SaleOrderTFabricCompSiteRule.cs" />
+    <Compile Include="Sale\SaleOrderTFabricRule.cs" />
+    <Compile Include="Sale\SaleOrderTItemRule.cs" />
+    <Compile Include="Sale\SampleSaleDtsRule.cs" />
+    <Compile Include="Sale\SampleSaleRule.cs" />
+    <Compile Include="Sale\SendSampleRule.cs" />
+    <Compile Include="Sale\ShipmentDtsRule.cs" />
+    <Compile Include="Sale\ShipmentRule.cs" />
+    <Compile Include="Enum\WHSpecialTypeRule.cs" />
+    <Compile Include="Sale\VendorCompactDtsRule.cs" />
+    <Compile Include="Sale\VendorCompactRule.cs" />
+    <Compile Include="Ship\CustomDtsRule.cs" />
+    <Compile Include="Ship\CustomInvoiceDtsRule.cs" />
+    <Compile Include="Ship\CustomPackDtsRule.cs" />
+    <Compile Include="Ship\CustomReportDtsRule.cs" />
+    <Compile Include="Ship\CustomRule.cs" />
+    <Compile Include="Ship\ShipBoatDtsRule.cs" />
+    <Compile Include="Ship\ShipBoatRule.cs" />
+    <Compile Include="Sys\FiledSetRule.cs" />
+    <Compile Include="Sys\ParamSetRule.cs" />
+    <Compile Include="WHAlarm\WHALarmDtsRule.cs" />
+    <Compile Include="WH\DBFormDtsPackRule.cs" />
+    <Compile Include="WH\DBFormDtsRule.cs" />
+    <Compile Include="WH\DBFormRule.cs" />
+    <Compile Include="WH\IOFormDtsInputPackRule.cs" />
+    <Compile Include="WH\IOFormDtsISNRule.cs" />
+    <Compile Include="WH\IOFormDtsPackRule.cs" />
+    <Compile Include="WH\IOFormDtsRule.cs" />
+    <Compile Include="WH\IOFormRule.cs" />
+    <Compile Include="WH\LYFormRule.cs" />
+    <Compile Include="WH\PackBoxKPDtsRule.cs" />
+    <Compile Include="WH\PackBoxKPRule.cs" />
+    <Compile Include="WH\PackBoxRule.cs" />
+    <Compile Include="WH\PckISNRule.cs" />
+    <Compile Include="WH\QSRule.cs" />
+    <Compile Include="WH\SBitRule.cs" />
+    <Compile Include="WH\SectionRule.cs" />
+    <Compile Include="WH\StorgeAlarmRule.cs" />
+    <Compile Include="WH\StorgeJSDtsRule.cs" />
+    <Compile Include="WH\StorgeJSRule.cs" />
+    <Compile Include="WH\StorgeLockHisRule.cs" />
+    <Compile Include="WH\StorgeLockRule.cs" />
+    <Compile Include="WH\StorgePackRule.cs" />
+    <Compile Include="WH\StorgeRule.cs" />
+    <Compile Include="WH\WHPicRule.cs" />
+    <Compile Include="WH\WHRule.cs" />
+    <Compile Include="WH\YarnTiaoPingRule.cs" />
+    <Compile Include="WH\YQFormDtsPackRule.cs" />
+    <Compile Include="WH\YQFormDtsRule.cs" />
+    <Compile Include="WH\YQFormRule.cs" />
+    <Compile Include="WO\DesignDtsRule.cs" />
+    <Compile Include="WO\DesignRule.cs" />
+    <Compile Include="WO\FabricProcessAddRule.cs" />
+    <Compile Include="WO\FabricProcessItemDtsRule.cs" />
+    <Compile Include="WO\FabricProcessPBDtsRule.cs" />
+    <Compile Include="WO\FabricWHOutFormDtsPackRule.cs" />
+    <Compile Include="WO\FabricWHOutFormDtsRule.cs" />
+    <Compile Include="WO\FabricWHOutFormRule.cs" />
+    <Compile Include="WO\FlowerTypeContolDtsRule.cs" />
+    <Compile Include="WO\FlowerTypeContolRule.cs" />
+    <Compile Include="WO\FabricProcessDtsRule.cs" />
+    <Compile Include="WO\FabricProcessRule.cs" />
+    <Compile Include="WO\ProductionPlanDts2Rule.cs" />
+    <Compile Include="WO\ProductionPlanDtsRule.cs" />
+    <Compile Include="WO\ProductionPlanRule.cs" />
+    <Compile Include="WO\SOPlanRule.cs" />
+    <Compile Include="WO\TestReportDtsRule.cs" />
+    <Compile Include="WO\TestReportRule.cs" />
+    <Compile Include="WO\TowelProductionPlanDtsRule.cs" />
+    <Compile Include="WO\TowelProductionPlanDtsStepProductsRule.cs" />
+    <Compile Include="WO\TowelProductionPlanDtsStepRule.cs" />
+    <Compile Include="WO\TowelProductionPlanRule.cs" />
+    <Compile Include="WO\TowelProductionRule.cs" />
+    <Compile Include="WO\YieldRecordDtsRule.cs" />
+    <Compile Include="WO\YieldRecordRule.cs" />
+    <Compile Include="WO\PrintingProcessDtsRule.cs" />
+    <Compile Include="WO\PrintingProcessRule.cs" />
+    <Compile Include="WO\WeaveProcessDtsRule.cs" />
+    <Compile Include="WO\WeaveProcessRule.cs" />
+    <Compile Include="WO\WeaveProcessDts2Rule.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="HttSoft.FrameFunc, Version=2.0.3372.27866, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\MPLERP\IncludeDll\HttSoft.FrameFunc.dll</HintPath>
+    </Reference>
+    <Reference Include="HttSoft.Framework, Version=2.0.3106.27235, Culture=neutral, PublicKeyToken=cf243688fd30f25a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\MPLERP\IncludeDll\HttSoft.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HttSoft.MLTERP.Data\HttSoft.MLTERP.Data.csproj">
+      <Project>{BC47CCA5-2EB6-4A43-B488-B032D37CD112}</Project>
+      <Name>HttSoft.MLTERP.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HttSoft.MLTERP.Sys\HttSoft.MLTERP.Sys.csproj">
+      <Project>{0BB33D5D-21B5-4841-B1D6-4390A63A2B21}</Project>
+      <Name>HttSoft.MLTERP.Sys</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

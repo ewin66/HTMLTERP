@@ -1,0 +1,16 @@
+D:\项目开发\1607常熟德福\MLTERP\HttSoft.MLTERP.Data\bin\Debug\HttSoft.MLTERP.Data.dll
+D:\项目开发\1607常熟德福\MLTERP\HttSoft.MLTERP.Data\bin\Debug\HttSoft.MLTERP.Data.pdb
+D:\项目开发\1607常熟德福\MLTERP\HttSoft.MLTERP.Data\bin\Debug\HttSoft.Framework.dll
+D:\项目开发\1607常熟德福\MLTERP\HttSoft.MLTERP.Data\bin\Debug\HttSoft.MLTERP.Sys.dll
+D:\项目开发\1607常熟德福\MLTERP\HttSoft.MLTERP.Data\bin\Debug\HttSoft.MLTERP.Sys.pdb
+D:\项目开发\1607常熟德福\MLTERP\HttSoft.MLTERP.Data\obj\Debug\HttSoft.MLTERP.Data.csprojResolveAssemblyReference.cache
+D:\项目开发\1607常熟德福\MLTERP\HttSoft.MLTERP.Data\obj\Debug\HttSoft.MLTERP.Data.dll
+D:\项目开发\1607常熟德福\MLTERP\HttSoft.MLTERP.Data\obj\Debug\HttSoft.MLTERP.Data.pdb
+D:\项目开发\1602海宁立达\MLTERP\HttSoft.MLTERP.Data\bin\Debug\HttSoft.MLTERP.Data.dll
+D:\项目开发\1602海宁立达\MLTERP\HttSoft.MLTERP.Data\bin\Debug\HttSoft.MLTERP.Data.pdb
+D:\项目开发\1602海宁立达\MLTERP\HttSoft.MLTERP.Data\bin\Debug\HttSoft.Framework.dll
+D:\项目开发\1602海宁立达\MLTERP\HttSoft.MLTERP.Data\bin\Debug\HttSoft.MLTERP.Sys.dll
+D:\项目开发\1602海宁立达\MLTERP\HttSoft.MLTERP.Data\bin\Debug\HttSoft.MLTERP.Sys.pdb
+D:\项目开发\1602海宁立达\MLTERP\HttSoft.MLTERP.Data\obj\Debug\HttSoft.MLTERP.Data.csprojResolveAssemblyReference.cache
+D:\项目开发\1602海宁立达\MLTERP\HttSoft.MLTERP.Data\obj\Debug\HttSoft.MLTERP.Data.dll
+D:\项目开发\1602海宁立达\MLTERP\HttSoft.MLTERP.Data\obj\Debug\HttSoft.MLTERP.Data.pdb

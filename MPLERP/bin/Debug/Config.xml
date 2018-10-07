@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <!--连接应用服务器的设置-->
+  <Appserver>127.0.0.1</Appserver>
+  <Protocol>tcp</Protocol>
+  <Port>9000</Port>
+  <SysConnect>MLTERPHaiNingLiDa</SysConnect>
+  <!--可连接的系统-->
+  <SysNames>
+    <Sys name="MLTERPHaiNingLiDa" keyConnect="SQL4YARN" />
+  </SysNames>
+  <!--自定义个性化设置-->
+  <CustomSet>
+   
+ <ShowCompany>0</ShowCompany>
+  </CustomSet>
+	
+	<Modules>
+		<File>MLTERP.dll</File>
+		<File>HttSoft.DevCustomFunc.dll</File>
+	</Modules>
+	
+</Configuration>

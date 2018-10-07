@@ -1,0 +1,839 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BC47CCA5-2EB6-4A43-B488-B032D37CD112}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>HttSoft.MLTERP.Data</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>HttSoft.MLTERP.Data</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>发布\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="ADH\CheckForm.cs" />
+    <Compile Include="ADH\CheckFormCtl.cs" />
+    <Compile Include="ADH\CheckFormDts.cs" />
+    <Compile Include="ADH\CheckFormDtsCtl.cs" />
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Att\GoodsPost.cs" />
+    <Compile Include="Att\GoodsPostCtl.cs" />
+    <Compile Include="Att\GoodsTrans.cs" />
+    <Compile Include="Att\GoodsTransCtl.cs" />
+    <Compile Include="Att\GoodsTransDts.cs" />
+    <Compile Include="Att\GoodsTransDtsCtl.cs" />
+    <Compile Include="Att\ItemTestForm.cs" />
+    <Compile Include="Att\ItemTestFormCtl.cs" />
+    <Compile Include="Att\ItemTestFormDts.cs" />
+    <Compile Include="Att\ItemTestFormDtsCtl.cs" />
+    <Compile Include="Att\ProductCheck.cs" />
+    <Compile Include="Att\ProductCheckCtl.cs" />
+    <Compile Include="Att\ProductCheckDts.cs" />
+    <Compile Include="Att\ProductCheckDtsCtl.cs" />
+    <Compile Include="Att\VendorTrackRecord.cs" />
+    <Compile Include="Att\VendorTrackRecordCtl.cs" />
+    <Compile Include="BBS\InfoMain.cs" />
+    <Compile Include="BBS\InfoMainAtt.cs" />
+    <Compile Include="BBS\InfoMainAttCtl.cs" />
+    <Compile Include="BBS\InfoMainCtl.cs" />
+    <Compile Include="BBS\InfoMainHis.cs" />
+    <Compile Include="BBS\InfoMainHisCtl.cs" />
+    <Compile Include="BBS\InfoMainShareDts.cs" />
+    <Compile Include="BBS\InfoMainShareDtsCtl.cs" />
+    <Compile Include="BBS\InfoMainWeibo.cs" />
+    <Compile Include="BBS\InfoMainWeiboCtl.cs" />
+    <Compile Include="Buy\ColorCompact.cs" />
+    <Compile Include="Buy\ColorCompactCtl.cs" />
+    <Compile Include="Buy\ColorCompactDts.cs" />
+    <Compile Include="Buy\ColorCompactDtsCtl.cs" />
+    <Compile Include="Buy\ItemBuyCapDts.cs" />
+    <Compile Include="Buy\ItemBuyCapDtsCtl.cs" />
+    <Compile Include="Buy\ItemBuyCapExDts.cs" />
+    <Compile Include="Buy\ItemBuyCapExDtsCtl.cs" />
+    <Compile Include="Buy\ItemBuyFollow.cs" />
+    <Compile Include="Buy\ItemBuyFollowCtl.cs" />
+    <Compile Include="Buy\ItemBuyFollowDts.cs" />
+    <Compile Include="Buy\ItemBuyFollowDtsCtl.cs" />
+    <Compile Include="Buy\ItemBuyForm.cs" />
+    <Compile Include="Buy\ItemBuyFormCtl.cs" />
+    <Compile Include="Buy\ItemBuyFormDts.cs" />
+    <Compile Include="Buy\ItemBuyFormDtsCtl.cs" />
+    <Compile Include="Buy\OthCompact.cs" />
+    <Compile Include="Buy\OthCompactCtl.cs" />
+    <Compile Include="Buy\OthCompactDts.cs" />
+    <Compile Include="Buy\OthCompactDtsCtl.cs" />
+    <Compile Include="Buy\YarnCompact.cs" />
+    <Compile Include="Buy\YarnCompactCtl.cs" />
+    <Compile Include="Buy\YarnCompactDts.cs" />
+    <Compile Include="Buy\YarnCompactDtsCtl.cs" />
+    <Compile Include="CaiWu\CWDuiZhang.cs" />
+    <Compile Include="CaiWu\CWDuiZhangCtl.cs" />
+    <Compile Include="CaiWu\CWDuiZhangDts.cs" />
+    <Compile Include="CaiWu\CWDuiZhangDtsCtl.cs" />
+    <Compile Include="CaiWu\CWInvoice.cs" />
+    <Compile Include="CaiWu\CWInvoiceCtl.cs" />
+    <Compile Include="CaiWu\CWInvoiceDts.cs" />
+    <Compile Include="CaiWu\CWInvoiceDtsCtl.cs" />
+    <Compile Include="CaiWu\CWPay.cs" />
+    <Compile Include="CaiWu\CWPayCtl.cs" />
+    <Compile Include="CaiWu\CWRec.cs" />
+    <Compile Include="CaiWu\CWRecCtl.cs" />
+    <Compile Include="Class1.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\AddressList.cs" />
+    <Compile Include="Data\AddressListCtl.cs" />
+    <Compile Include="Data\AddressListDts.cs" />
+    <Compile Include="Data\AddressListDtsCtl.cs" />
+    <Compile Include="Data\AuthGrp.cs" />
+    <Compile Include="Data\AuthGrpCtl.cs" />
+    <Compile Include="Data\AuthGrpWinList.cs" />
+    <Compile Include="Data\AuthGrpWinListCtl.cs" />
+    <Compile Include="Data\AuthGrpWinListSub.cs" />
+    <Compile Include="Data\AuthGrpWinListSubCtl.cs" />
+    <Compile Include="Data\Board.cs" />
+    <Compile Include="Data\Brand.cs" />
+    <Compile Include="Data\BrandCtl.cs" />
+    <Compile Include="Data\BugForm.cs" />
+    <Compile Include="Data\BugFormCtl.cs" />
+    <Compile Include="Data\CheckContent.cs" />
+    <Compile Include="Data\CheckContentCtl.cs" />
+    <Compile Include="Data\CheckContentDts.cs" />
+    <Compile Include="Data\CheckContentDtsCtl.cs" />
+    <Compile Include="Data\CLS.cs" />
+    <Compile Include="Data\CLSCtl.cs" />
+    <Compile Include="Data\CLSForm.cs" />
+    <Compile Include="Data\CLSFormCtl.cs" />
+    <Compile Include="Data\CLSList.cs" />
+    <Compile Include="Data\CLSListCtl.cs" />
+    <Compile Include="Data\ColorCard.cs" />
+    <Compile Include="Data\ColorCardCtl.cs" />
+    <Compile Include="Data\ColorCardDts.cs" />
+    <Compile Include="Data\ColorCardDtsCtl.cs" />
+    <Compile Include="Data\ColorManage.cs" />
+    <Compile Include="Data\ColorManageCtl.cs" />
+    <Compile Include="Data\CompanyAccount.cs" />
+    <Compile Include="Data\CompanyAccountCtl.cs" />
+    <Compile Include="Data\CompanyContact.cs" />
+    <Compile Include="Data\CompanyContactCtl.cs" />
+    <Compile Include="Data\CSBGItem.cs" />
+    <Compile Include="Data\CSBGItemCtl.cs" />
+    <Compile Include="Data\CSBGItemDts.cs" />
+    <Compile Include="Data\CSBGItemDtsCtl.cs" />
+    <Compile Include="Data\Currency.cs" />
+    <Compile Include="Data\CurrencyCtl.cs" />
+    <Compile Include="Data\Deviation.cs" />
+    <Compile Include="Data\DeviationCtl.cs" />
+    <Compile Include="Data\DeviationDts.cs" />
+    <Compile Include="Data\DeviationDtsCtl.cs" />
+    <Compile Include="Data\Duty.cs" />
+    <Compile Include="Data\DutyCtl.cs" />
+    <Compile Include="Data\Fabric.cs" />
+    <Compile Include="Data\FabricCtl.cs" />
+    <Compile Include="Data\FavItemGB.cs" />
+    <Compile Include="Data\FavItemGBCtl.cs" />
+    <Compile Include="Data\FNORel.cs" />
+    <Compile Include="Data\FNORelCtl.cs" />
+    <Compile Include="Data\Follow.cs" />
+    <Compile Include="Data\FollowCtl.cs" />
+    <Compile Include="Data\FOPDep.cs" />
+    <Compile Include="Data\FOPDepCtl.cs" />
+    <Compile Include="Data\FormItemMore.cs" />
+    <Compile Include="Data\FormItemMoreCtl.cs" />
+    <Compile Include="Data\FormNCVendor.cs" />
+    <Compile Include="Data\FormNCVendorCtl.cs" />
+    <Compile Include="Data\FVendorForm.cs" />
+    <Compile Include="Data\FVendorFormCtl.cs" />
+    <Compile Include="Data\GZNote.cs" />
+    <Compile Include="Data\GZNoteCtl.cs" />
+    <Compile Include="Data\GZNoteDts.cs" />
+    <Compile Include="Data\GZNoteDtsCtl.cs" />
+    <Compile Include="Data\Item.cs" />
+    <Compile Include="Data\ItemAdd.cs" />
+    <Compile Include="Data\ItemAddCtl.cs" />
+    <Compile Include="Data\ItemBaseCheckItem.cs" />
+    <Compile Include="Data\ItemBaseCheckItemCtl.cs" />
+    <Compile Include="Data\ItemBaseGYType.cs" />
+    <Compile Include="Data\ItemBaseGYTypeCtl.cs" />
+    <Compile Include="Data\ItemBaseGYTypeDts.cs" />
+    <Compile Include="Data\ItemBaseGYTypeDtsCtl.cs" />
+    <Compile Include="Data\ItemCheckSO.cs" />
+    <Compile Include="Data\ItemCheckSOCtl.cs" />
+    <Compile Include="Data\ItemCheckStandardPhy.cs" />
+    <Compile Include="Data\ItemCheckStandardPhyCtl.cs" />
+    <Compile Include="Data\ItemClass.cs" />
+    <Compile Include="Data\ItemClassCtl.cs" />
+    <Compile Include="Data\ItemCodeFacDts.cs" />
+    <Compile Include="Data\ItemCodeFacDtsCtl.cs" />
+    <Compile Include="Data\ItemColorDts.cs" />
+    <Compile Include="Data\ItemColorDtsCtl.cs" />
+    <Compile Include="Data\ItemColorDtsHis.cs" />
+    <Compile Include="Data\ItemColorDtsHisCtl.cs" />
+    <Compile Include="Data\ItemCompositeDts.cs" />
+    <Compile Include="Data\ItemCompositeDtsCtl.cs" />
+    <Compile Include="Data\ItemCtl.cs" />
+    <Compile Include="Data\ItemDts.cs" />
+    <Compile Include="Data\ItemDtsCtl.cs" />
+    <Compile Include="Data\ItemGB.cs" />
+    <Compile Include="Data\ItemGBCtl.cs" />
+    <Compile Include="Data\ItemGBUPHis.cs" />
+    <Compile Include="Data\ItemGBUPHisCtl.cs" />
+    <Compile Include="Data\ItemGreyFabReplace.cs" />
+    <Compile Include="Data\ItemGreyFabReplaceCtl.cs" />
+    <Compile Include="Data\ItemGY.cs" />
+    <Compile Include="Data\ItemGYCtl.cs" />
+    <Compile Include="Data\ItemGYFlowDts.cs" />
+    <Compile Include="Data\ItemGYFlowDtsCtl.cs" />
+    <Compile Include="Data\ItemGYFlowItemDts.cs" />
+    <Compile Include="Data\ItemGYFlowItemDtsCtl.cs" />
+    <Compile Include="Data\ItemHis.cs" />
+    <Compile Include="Data\ItemHisCtl.cs" />
+    <Compile Include="Data\ItemLBDts.cs" />
+    <Compile Include="Data\ItemLBDtsCtl.cs" />
+    <Compile Include="Data\ItemPic.cs" />
+    <Compile Include="Data\ItemPicCtl.cs" />
+    <Compile Include="Data\ItemSample.cs" />
+    <Compile Include="Data\ItemSampleCtl.cs" />
+    <Compile Include="Data\ItemType.cs" />
+    <Compile Include="Data\ItemTypeCtl.cs" />
+    <Compile Include="Data\ItemTypeForm.cs" />
+    <Compile Include="Data\ItemTypeFormCtl.cs" />
+    <Compile Include="Data\MachineManage.cs" />
+    <Compile Include="Data\MachineManageCtl.cs" />
+    <Compile Include="Data\MLDL.cs" />
+    <Compile Include="Data\MLDLCtl.cs" />
+    <Compile Include="Data\MLLB.cs" />
+    <Compile Include="Data\MLLBCtl.cs" />
+    <Compile Include="Data\MLYL.cs" />
+    <Compile Include="Data\MLYLCtl.cs" />
+    <Compile Include="Data\MsgPhone.cs" />
+    <Compile Include="Data\MsgPhoneCtl.cs" />
+    <Compile Include="Data\OP.cs" />
+    <Compile Include="Data\OPAuthGrp.cs" />
+    <Compile Include="Data\OPAuthGrpCtl.cs" />
+    <Compile Include="Data\OPCtl.cs" />
+    <Compile Include="Data\OPDep.cs" />
+    <Compile Include="Data\OPDepCtl.cs" />
+    <Compile Include="Data\OPFamily.cs" />
+    <Compile Include="Data\OPFamilyCtl.cs" />
+    <Compile Include="Data\OPSaleGroup.cs" />
+    <Compile Include="Data\OPSaleGroupCtl.cs" />
+    <Compile Include="Data\OPWH.cs" />
+    <Compile Include="Data\OPWHCtl.cs" />
+    <Compile Include="Data\OPWinList.cs" />
+    <Compile Include="Data\OPWinListCtl.cs" />
+    <Compile Include="Data\OPWinListSub.cs" />
+    <Compile Include="Data\OPWinListSubCtl.cs" />
+    <Compile Include="Data\PayMethod.cs" />
+    <Compile Include="Data\PayMethodCtl.cs" />
+    <Compile Include="Data\PayMethodDts.cs" />
+    <Compile Include="Data\PayMethodDtsCtl.cs" />
+    <Compile Include="Data\SaleFlowModule.cs" />
+    <Compile Include="Data\SaleFlowModuleCtl.cs" />
+    <Compile Include="Data\SaleFlowModuleDts.cs" />
+    <Compile Include="Data\SaleFlowModuleDtsCtl.cs" />
+    <Compile Include="Data\SaleGroup.cs" />
+    <Compile Include="Data\SaleGroupCtl.cs" />
+    <Compile Include="Data\SOContext.cs" />
+    <Compile Include="Data\SOContextCtl.cs" />
+    <Compile Include="Data\Structure.cs" />
+    <Compile Include="Data\StructureCtl.cs" />
+    <Compile Include="Data\StructureMember.cs" />
+    <Compile Include="Data\StructureMemberCtl.cs" />
+    <Compile Include="Data\Teams.cs" />
+    <Compile Include="Data\TeamsCtl.cs" />
+    <Compile Include="Data\TeamsDts.cs" />
+    <Compile Include="Data\TeamsDtsCtl.cs" />
+    <Compile Include="Data\UpdateWHSinglePrice.cs" />
+    <Compile Include="Data\UpdateWHSinglePriceCtl.cs" />
+    <Compile Include="Data\UpdateWHVendor.cs" />
+    <Compile Include="Data\UpdateWHVendorCtl.cs" />
+    <Compile Include="Data\VDsigner.cs" />
+    <Compile Include="Data\VDsignerCtl.cs" />
+    <Compile Include="Data\VDsignerFile.cs" />
+    <Compile Include="Data\VDsignerFileCtl.cs" />
+    <Compile Include="Data\Vendor.cs" />
+    <Compile Include="Data\VendorAdd.cs" />
+    <Compile Include="Data\VendorAddCtl.cs" />
+    <Compile Include="Data\VendorAddress.cs" />
+    <Compile Include="Data\VendorAddressCtl.cs" />
+    <Compile Include="Data\VendorContact.cs" />
+    <Compile Include="Data\VendorContactCtl.cs" />
+    <Compile Include="Data\VendorCtl.cs" />
+    <Compile Include="Data\VendorDes.cs" />
+    <Compile Include="Data\VendorDesCtl.cs" />
+    <Compile Include="Data\VendorDesDts.cs" />
+    <Compile Include="Data\VendorDesDtsCtl.cs" />
+    <Compile Include="Data\VendorFile.cs" />
+    <Compile Include="Data\VendorFileCtl.cs" />
+    <Compile Include="Data\VendorInSaleOP.cs" />
+    <Compile Include="Data\VendorInSaleOPCtl.cs" />
+    <Compile Include="Data\VendorInvoiceDts.cs" />
+    <Compile Include="Data\VendorInvoiceDtsCtl.cs" />
+    <Compile Include="Data\VendorNews.cs" />
+    <Compile Include="Data\VendorNewsCtl.cs" />
+    <Compile Include="Data\VendorSaleOP.cs" />
+    <Compile Include="Data\VendorSaleOPCtl.cs" />
+    <Compile Include="Data\VendorTypeDts.cs" />
+    <Compile Include="Data\VendorTypeForm.cs" />
+    <Compile Include="Data\VendorTypeFormCtl.cs" />
+    <Compile Include="Data\WindowMenu.cs" />
+    <Compile Include="Data\WindowMenuCtl.cs" />
+    <Compile Include="Data\WinListFillDateType.cs" />
+    <Compile Include="Data\WinListFillDateTypeCtl.cs" />
+    <Compile Include="Data\WOOtherType.cs" />
+    <Compile Include="Data\WOOtherTypeCtl.cs" />
+    <Compile Include="Dev\ColorSample.cs" />
+    <Compile Include="Dev\ColorSampleCtl.cs" />
+    <Compile Include="Dev\ColorSampleDts.cs" />
+    <Compile Include="Dev\ColorSampleDtsCtl.cs" />
+    <Compile Include="Dev\GBJC.cs" />
+    <Compile Include="Dev\GBJCCtl.cs" />
+    <Compile Include="Dev\GBJCDts.cs" />
+    <Compile Include="Dev\GBJCDtsCtl.cs" />
+    <Compile Include="Dev\GBJCLR.cs" />
+    <Compile Include="Dev\GBJCLRCtl.cs" />
+    <Compile Include="Dev\GBJCLRDts.cs" />
+    <Compile Include="Dev\GBJCLRDtsCtl.cs" />
+    <Compile Include="Dev\LYGL.cs" />
+    <Compile Include="Dev\LYGLCtl.cs" />
+    <Compile Include="Dev\LYGLDts.cs" />
+    <Compile Include="Dev\LYGLDtsCtl.cs" />
+    <Compile Include="Dev\QASample.cs" />
+    <Compile Include="Dev\QASampleCtl.cs" />
+    <Compile Include="Dev\QASampleDts.cs" />
+    <Compile Include="Dev\QASampleDtsCtl.cs" />
+    <Compile Include="Dev\SaleOrderInstruct.cs" />
+    <Compile Include="Dev\SaleOrderInstructCtl.cs" />
+    <Compile Include="Dev\SaleOrderInstructDts.cs" />
+    <Compile Include="Dev\SaleOrderInstructDtsCtl.cs" />
+    <Compile Include="Dev\Sample.cs" />
+    <Compile Include="Dev\SampleCtl.cs" />
+    <Compile Include="Dev\SampleDts.cs" />
+    <Compile Include="Dev\SampleDtsCtl.cs" />
+    <Compile Include="Dev\SampleSO.cs" />
+    <Compile Include="Dev\SampleSOCtl.cs" />
+    <Compile Include="Dev\SampleSODts.cs" />
+    <Compile Include="Dev\SampleSODtsCtl.cs" />
+    <Compile Include="Enum\AttnFinalType.cs" />
+    <Compile Include="Enum\AttnFinalTypeCtl.cs" />
+    <Compile Include="Enum\BoxStatus.cs" />
+    <Compile Include="Enum\BoxStatusCtl.cs" />
+    <Compile Include="Enum\CompactType.cs" />
+    <Compile Include="Enum\CompactTypeCtl.cs" />
+    <Compile Include="Enum\CompanyType.cs" />
+    <Compile Include="Enum\CompanyTypeCtl.cs" />
+    <Compile Include="Enum\Dep.cs" />
+    <Compile Include="Enum\DepCtl.cs" />
+    <Compile Include="Enum\Exceptional.cs" />
+    <Compile Include="Enum\ExceptionalCtl.cs" />
+    <Compile Include="Enum\ExitType.cs" />
+    <Compile Include="Enum\ExitTypeCtl.cs" />
+    <Compile Include="Enum\FinalType.cs" />
+    <Compile Include="Enum\FinalTypeCtl.cs" />
+    <Compile Include="Enum\FormList.cs" />
+    <Compile Include="Enum\FormListCtl.cs" />
+    <Compile Include="Enum\FormListDB.cs" />
+    <Compile Include="Enum\FormListDBCtl.cs" />
+    <Compile Include="Enum\FormNoControl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enum\FormNoControlCtl.cs" />
+    <Compile Include="Enum\InfoType.cs" />
+    <Compile Include="Enum\InfoTypeCtl.cs" />
+    <Compile Include="Enum\ISSHCheckType.cs" />
+    <Compile Include="Enum\ISSHCheckTypeCtl.cs" />
+    <Compile Include="Enum\ItemFinalType.cs" />
+    <Compile Include="Enum\ItemFinalTypeCtl.cs" />
+    <Compile Include="Enum\JSXType.cs" />
+    <Compile Include="Enum\JSXTypeCtl.cs" />
+    <Compile Include="Enum\KSType.cs" />
+    <Compile Include="Enum\KSTypeCtl.cs" />
+    <Compile Include="Enum\MailAlarmType.cs" />
+    <Compile Include="Enum\MailAlarmTypeCtl.cs" />
+    <Compile Include="Enum\OPMailAlarm.cs" />
+    <Compile Include="Enum\OPMailAlarmCtl.cs" />
+    <Compile Include="Enum\OrderLevel.cs" />
+    <Compile Include="Enum\OrderLevelCtl.cs" />
+    <Compile Include="Enum\OrderStatus.cs" />
+    <Compile Include="Enum\OrderStatusCtl.cs" />
+    <Compile Include="Enum\OrderStep.cs" />
+    <Compile Include="Enum\OrderStepCtl.cs" />
+    <Compile Include="Enum\OrderType.cs" />
+    <Compile Include="Enum\OrderTypeCtl.cs" />
+    <Compile Include="Enum\OutPicType.cs" />
+    <Compile Include="Enum\OutPicTypeCtl.cs" />
+    <Compile Include="Enum\ParamSetType.cs" />
+    <Compile Include="Enum\ParamSetTypeCtl.cs" />
+    <Compile Include="Enum\ProcessLevel.cs" />
+    <Compile Include="Enum\ProcessLevelCtl.cs" />
+    <Compile Include="Enum\RequestType.cs" />
+    <Compile Include="Enum\RequestTypeCtl.cs" />
+    <Compile Include="Enum\SaleProcedure.cs" />
+    <Compile Include="Enum\SaleProcedureCtl.cs" />
+    <Compile Include="Enum\SampleType.cs" />
+    <Compile Include="Enum\SampleTypeCtl.cs" />
+    <Compile Include="Enum\SampleWOType.cs" />
+    <Compile Include="Enum\SampleWOTypeCtl.cs" />
+    <Compile Include="Enum\SSNExpense.cs" />
+    <Compile Include="Enum\SSNExpenseCtl.cs" />
+    <Compile Include="Enum\Unit.cs" />
+    <Compile Include="Enum\UnitCtl.cs" />
+    <Compile Include="Enum\UploadFileType.cs" />
+    <Compile Include="Enum\UploadFileTypeCtl.cs" />
+    <Compile Include="Enum\UploadPicProp.cs" />
+    <Compile Include="Enum\UploadPicPropCtl.cs" />
+    <Compile Include="Enum\VendorType.cs" />
+    <Compile Include="Enum\VendorTypeCtl.cs" />
+    <Compile Include="Enum\WHCaiWuType.cs" />
+    <Compile Include="Enum\WHCaiWuTypeCtl.cs" />
+    <Compile Include="Enum\WHCalMethod.cs" />
+    <Compile Include="Enum\WHCalMethodCtl.cs" />
+    <Compile Include="Enum\WHDZType.cs" />
+    <Compile Include="Enum\WHDZTypeCtl.cs" />
+    <Compile Include="Enum\WHFormType.cs" />
+    <Compile Include="Enum\WHFormTypeCtl.cs" />
+    <Compile Include="Enum\WHSpecialType.cs" />
+    <Compile Include="Enum\WHSpecialTypeCtl.cs" />
+    <Compile Include="Enum\WHType.cs" />
+    <Compile Include="Enum\WHTypeCtl.cs" />
+    <Compile Include="Enum\WOFollowFieldSet.cs" />
+    <Compile Include="Enum\WOFollowFieldSetCtl.cs" />
+    <Compile Include="Enum\WOFollowStep.cs" />
+    <Compile Include="Enum\WOFollowStepCtl.cs" />
+    <Compile Include="Enum\WOFollowType.cs" />
+    <Compile Include="Enum\WOFollowTypeCtl.cs" />
+    <Compile Include="Finance\BVendorAmount.cs" />
+    <Compile Include="Finance\BVendorAmountCtl.cs" />
+    <Compile Include="Finance\CapPlan.cs" />
+    <Compile Include="Finance\CapPlanCtl.cs" />
+    <Compile Include="Finance\CapPlanDts.cs" />
+    <Compile Include="Finance\CapPlanDtsCtl.cs" />
+    <Compile Include="Finance\CheckOperation.cs" />
+    <Compile Include="Finance\CheckOperationCtl.cs" />
+    <Compile Include="Finance\CheckOperationDts.cs" />
+    <Compile Include="Finance\CheckOperationDtsCtl.cs" />
+    <Compile Include="Finance\CheckOperationInvDts.cs" />
+    <Compile Include="Finance\CheckOperationInvDtsCtl.cs" />
+    <Compile Include="Finance\CheckOperationPayDts.cs" />
+    <Compile Include="Finance\CheckOperationPayDtsCtl.cs" />
+    <Compile Include="Finance\CostRecord.cs" />
+    <Compile Include="Finance\CostRecordCtl.cs" />
+    <Compile Include="Finance\CostRegister.cs" />
+    <Compile Include="Finance\CostRegisterCtl.cs" />
+    <Compile Include="Finance\CostRegisterDts.cs" />
+    <Compile Include="Finance\CostRegisterDtsCtl.cs" />
+    <Compile Include="Finance\Express.cs" />
+    <Compile Include="Finance\ExpressCtl.cs" />
+    <Compile Include="Finance\ExpressDts.cs" />
+    <Compile Include="Finance\ExpressDtsCtl.cs" />
+    <Compile Include="Finance\FQC.cs" />
+    <Compile Include="Finance\FQCCtl.cs" />
+    <Compile Include="Finance\InvoiceOperation.cs" />
+    <Compile Include="Finance\InvoiceOperationCtl.cs" />
+    <Compile Include="Finance\InvoiceOperationDts.cs" />
+    <Compile Include="Finance\InvoiceOperationDtsCtl.cs" />
+    <Compile Include="Finance\InvoiceYOperationDts.cs" />
+    <Compile Include="Finance\InvoiceYOperationDtsCtl.cs" />
+    <Compile Include="Finance\JSVendorAmount.cs" />
+    <Compile Include="Finance\JSVendorAmountCtl.cs" />
+    <Compile Include="Finance\Pay.cs" />
+    <Compile Include="Finance\PayCtl.cs" />
+    <Compile Include="Finance\PaymentHandle.cs" />
+    <Compile Include="Finance\PaymentHandleCtl.cs" />
+    <Compile Include="Finance\Receiving.cs" />
+    <Compile Include="Finance\ReceivingCtl.cs" />
+    <Compile Include="Finance\RecPay.cs" />
+    <Compile Include="Finance\RecPayCtl.cs" />
+    <Compile Include="Finance\RecPayDts.cs" />
+    <Compile Include="Finance\RecPayDtsCtl.cs" />
+    <Compile Include="Finance\RecPayHTDts.cs" />
+    <Compile Include="Finance\RecPayHTDtsCtl.cs" />
+    <Compile Include="Finance\RecPayHXDts.cs" />
+    <Compile Include="Finance\RecPayHXDtsCtl.cs" />
+    <Compile Include="Finance\WHAmountCE.cs" />
+    <Compile Include="Finance\WHAmountCECtl.cs" />
+    <Compile Include="Msg\MSGInput.cs" />
+    <Compile Include="Msg\MSGInputCtl.cs" />
+    <Compile Include="Msg\MSGInputDts.cs" />
+    <Compile Include="Msg\MSGInputDtsCtl.cs" />
+    <Compile Include="Msg\MSGMain.cs" />
+    <Compile Include="Msg\MSGMainCtl.cs" />
+    <Compile Include="Msg\MSGMessage.cs" />
+    <Compile Include="Msg\MSGMessageCtl.cs" />
+    <Compile Include="Msg\MSGMessageDts.cs" />
+    <Compile Include="Msg\MSGMessageDtsCtl.cs" />
+    <Compile Include="Msg\MSGSource.cs" />
+    <Compile Include="Msg\MSGSourceCtl.cs" />
+    <Compile Include="Msg\SParamset.cs" />
+    <Compile Include="Msg\SParamsetCtl.cs" />
+    <Compile Include="ReadScan\ISNTemp.cs" />
+    <Compile Include="ReadScan\ISNTempCtl.cs" />
+    <Compile Include="ReadScan\PackISN.cs" />
+    <Compile Include="ReadScan\PackISNCtl.cs" />
+    <Compile Include="ReadScan\PackISNDts.cs" />
+    <Compile Include="ReadScan\PackISNDtsCtl.cs" />
+    <Compile Include="Sale\AuditPrice.cs" />
+    <Compile Include="Sale\AuditPriceCtl.cs" />
+    <Compile Include="Sale\AuditPriceDts.cs" />
+    <Compile Include="Sale\AuditPriceDtsCtl.cs" />
+    <Compile Include="Sale\DaoTong.cs" />
+    <Compile Include="Sale\DaoTongCtl.cs" />
+    <Compile Include="Sale\DaoTongDts.cs" />
+    <Compile Include="Sale\DaoTongDtsCtl.cs" />
+    <Compile Include="Sale\DYGL.cs" />
+    <Compile Include="Sale\DYGLCtl.cs" />
+    <Compile Include="Sale\FHForm.cs" />
+    <Compile Include="Sale\FHFormCtl.cs" />
+    <Compile Include="Sale\FHFormDts.cs" />
+    <Compile Include="Sale\FHFormDtsCtl.cs" />
+    <Compile Include="Sale\FHFormDtsPack.cs" />
+    <Compile Include="Sale\FHFormDtsPackCtl.cs" />
+    <Compile Include="Sale\HandleEvent.cs" />
+    <Compile Include="Sale\HandleEventCtl.cs" />
+    <Compile Include="Sale\JYOrder.cs" />
+    <Compile Include="Sale\JYOrderCtl.cs" />
+    <Compile Include="Sale\JYOrderDts.cs" />
+    <Compile Include="Sale\JYOrderDtsCtl.cs" />
+    <Compile Include="Sale\JYOrderDtsInputPack.cs" />
+    <Compile Include="Sale\JYOrderDtsInputPackCtl.cs" />
+    <Compile Include="Sale\OperateQuote.cs" />
+    <Compile Include="Sale\OperateQuoteCtl.cs" />
+    <Compile Include="Sale\OperateQuoteDts.cs" />
+    <Compile Include="Sale\OperateQuoteDtsCtl.cs" />
+    <Compile Include="Sale\OrderProgress.cs" />
+    <Compile Include="Sale\OrderProgressCtl.cs" />
+    <Compile Include="Sale\OrderProgressDts.cs" />
+    <Compile Include="Sale\OrderProgressDtsCtl.cs" />
+    <Compile Include="Sale\ProductionNotice.cs" />
+    <Compile Include="Sale\ProductionNoticeBZDts.cs" />
+    <Compile Include="Sale\ProductionNoticeBZDtsCtl.cs" />
+    <Compile Include="Sale\ProductionNoticeCtl.cs" />
+    <Compile Include="Sale\ProductionNoticeDts.cs" />
+    <Compile Include="Sale\ProductionNoticeDtsCtl.cs" />
+    <Compile Include="Sale\ProductionNoticeHZLDts.cs" />
+    <Compile Include="Sale\ProductionNoticeHZLDtsCtl.cs" />
+    <Compile Include="Sale\ProductionNoticeRSDts.cs" />
+    <Compile Include="Sale\ProductionNoticeRSDtsCtl.cs" />
+    <Compile Include="Sale\ProductionNoticeZZDts.cs" />
+    <Compile Include="Sale\ProductionNoticeZZDtsCtl.cs" />
+    <Compile Include="Sale\QuotedPrice.cs" />
+    <Compile Include="Sale\QuotedPriceCtl.cs" />
+    <Compile Include="Sale\QuotedPriceDts.cs" />
+    <Compile Include="Sale\QuotedPriceDtsCtl.cs" />
+    <Compile Include="Sale\SaleOrder.cs" />
+    <Compile Include="Sale\SaleOrderCapDts.cs" />
+    <Compile Include="Sale\SaleOrderCapDtsCtl.cs" />
+    <Compile Include="Sale\SaleOrderCapExDts.cs" />
+    <Compile Include="Sale\SaleOrderCapExDtsCtl.cs" />
+    <Compile Include="Sale\SaleOrderCtl.cs" />
+    <Compile Include="Sale\SaleOrderDts.cs" />
+    <Compile Include="Sale\SaleOrderDtsCtl.cs" />
+    <Compile Include="Sale\SaleOrderFabric.cs" />
+    <Compile Include="Sale\SaleOrderFabricCompSite.cs" />
+    <Compile Include="Sale\SaleOrderFabricCompSiteCtl.cs" />
+    <Compile Include="Sale\SaleOrderFabricCtl.cs" />
+    <Compile Include="Sale\SaleOrderItem.cs" />
+    <Compile Include="Sale\SaleOrderItemCtl.cs" />
+    <Compile Include="Sale\SaleOrderJS.cs" />
+    <Compile Include="Sale\SaleOrderJSCtl.cs" />
+    <Compile Include="Sale\SaleOrderJSDts.cs" />
+    <Compile Include="Sale\SaleOrderJSDtsCtl.cs" />
+    <Compile Include="Sale\SaleOrderProcedureDts.cs" />
+    <Compile Include="Sale\SaleOrderProcedureDtsCtl.cs" />
+    <Compile Include="Sale\SaleOrderTColorItem.cs" />
+    <Compile Include="Sale\SaleOrderTColorItemCtl.cs" />
+    <Compile Include="Sale\SaleOrderTFabric.cs" />
+    <Compile Include="Sale\SaleOrderTFabricCompSite.cs" />
+    <Compile Include="Sale\SaleOrderTFabricCompSiteCtl.cs" />
+    <Compile Include="Sale\SaleOrderTFabricCtl.cs" />
+    <Compile Include="Sale\SaleOrderTItem.cs" />
+    <Compile Include="Sale\SaleOrderTItemCtl.cs" />
+    <Compile Include="Sale\SampleSale.cs" />
+    <Compile Include="Sale\SampleSaleCtl.cs" />
+    <Compile Include="Sale\SampleSaleDts.cs" />
+    <Compile Include="Sale\SampleSaleDtsCtl.cs" />
+    <Compile Include="Sale\SendSample.cs" />
+    <Compile Include="Sale\SendSampleCtl.cs" />
+    <Compile Include="Sale\Shipment.cs" />
+    <Compile Include="Sale\ShipmentCtl.cs" />
+    <Compile Include="Sale\ShipmentDts.cs" />
+    <Compile Include="Sale\ShipmentDtsCtl.cs" />
+    <Compile Include="Sale\VendorCompact.cs" />
+    <Compile Include="Sale\VendorCompactCtl.cs" />
+    <Compile Include="Sale\VendorCompactDts.cs" />
+    <Compile Include="Sale\VendorCompactDtsCtl.cs" />
+    <Compile Include="Ship\Custom.cs" />
+    <Compile Include="Ship\CustomCtl.cs" />
+    <Compile Include="Ship\CustomDts.cs" />
+    <Compile Include="Ship\CustomDtsCtl.cs" />
+    <Compile Include="Ship\CustomInvoiceDts.cs" />
+    <Compile Include="Ship\CustomInvoiceDtsCtl.cs" />
+    <Compile Include="Ship\CustomPackDts.cs" />
+    <Compile Include="Ship\CustomPackDtsCtl.cs" />
+    <Compile Include="Ship\CustomReportDts.cs" />
+    <Compile Include="Ship\CustomReportDtsCtl.cs" />
+    <Compile Include="Ship\ShipBoat.cs" />
+    <Compile Include="Ship\ShipBoatCtl.cs" />
+    <Compile Include="Ship\ShipBoatDts.cs" />
+    <Compile Include="Ship\ShipBoatDtsCtl.cs" />
+    <Compile Include="Sys\FiledSet.cs" />
+    <Compile Include="Sys\FiledSetCtl.cs" />
+    <Compile Include="Sys\ParamSet.cs" />
+    <Compile Include="Sys\ParamSetCtl.cs" />
+    <Compile Include="WHAlarm\WHALarmDts.cs" />
+    <Compile Include="WHAlarm\WHALarmDtsCtl.cs" />
+    <Compile Include="WH\DBForm.cs" />
+    <Compile Include="WH\DBFormCtl.cs" />
+    <Compile Include="WH\DBFormDts.cs" />
+    <Compile Include="WH\DBFormDtsCtl.cs" />
+    <Compile Include="WH\DBFormDtsPack.cs" />
+    <Compile Include="WH\DBFormDtsPackCtl.cs" />
+    <Compile Include="WH\IOForm.cs" />
+    <Compile Include="WH\IOFormCtl.cs" />
+    <Compile Include="WH\IOFormDts.cs" />
+    <Compile Include="WH\IOFormDtsCtl.cs" />
+    <Compile Include="WH\IOFormDtsInputPack.cs" />
+    <Compile Include="WH\IOFormDtsInputPackCtl.cs" />
+    <Compile Include="WH\IOFormDtsISN.cs" />
+    <Compile Include="WH\IOFormDtsISNCtl.cs" />
+    <Compile Include="WH\IOFormDtsPack.cs" />
+    <Compile Include="WH\IOFormDtsPackCtl.cs" />
+    <Compile Include="WH\LYForm.cs" />
+    <Compile Include="WH\LYFormCtl.cs" />
+    <Compile Include="WH\PackBox.cs" />
+    <Compile Include="WH\PackBoxCtl.cs" />
+    <Compile Include="WH\PackBoxKP.cs" />
+    <Compile Include="WH\PackBoxKPCtl.cs" />
+    <Compile Include="WH\PackBoxKPDts.cs" />
+    <Compile Include="WH\PackBoxKPDtsCtl.cs" />
+    <Compile Include="WH\PckISN.cs" />
+    <Compile Include="WH\PckISNCtl.cs" />
+    <Compile Include="WH\QS.cs" />
+    <Compile Include="WH\QSCtl.cs" />
+    <Compile Include="WH\SBit.cs" />
+    <Compile Include="WH\SBitCtl.cs" />
+    <Compile Include="WH\Section.cs" />
+    <Compile Include="WH\SectionCtl.cs" />
+    <Compile Include="WH\Storge.cs" />
+    <Compile Include="WH\StorgeAlarm.cs" />
+    <Compile Include="WH\StorgeAlarmCtl.cs" />
+    <Compile Include="WH\StorgeCtl.cs" />
+    <Compile Include="WH\StorgeJS.cs" />
+    <Compile Include="WH\StorgeJSCtl.cs" />
+    <Compile Include="WH\StorgeJSDts.cs" />
+    <Compile Include="WH\StorgeJSDtsCtl.cs" />
+    <Compile Include="WH\StorgeLock.cs" />
+    <Compile Include="WH\StorgeLockCtl.cs" />
+    <Compile Include="WH\StorgeLockHis.cs" />
+    <Compile Include="WH\StorgeLockHisCtl.cs" />
+    <Compile Include="WH\StorgePack.cs" />
+    <Compile Include="WH\StorgePackCtl.cs" />
+    <Compile Include="WH\WH.cs" />
+    <Compile Include="WH\WHCtl.cs" />
+    <Compile Include="WH\WHPic.cs" />
+    <Compile Include="WH\WHPicCtl.cs" />
+    <Compile Include="WH\YarnTiaoPing.cs" />
+    <Compile Include="WH\YarnTiaoPingCtl.cs" />
+    <Compile Include="WH\YQForm.cs" />
+    <Compile Include="WH\YQFormCtl.cs" />
+    <Compile Include="WH\YQFormDts.cs" />
+    <Compile Include="WH\YQFormDtsCtl.cs" />
+    <Compile Include="WH\YQFormDtsPack.cs" />
+    <Compile Include="WH\YQFormDtsPackCtl.cs" />
+    <Compile Include="WO\Design.cs" />
+    <Compile Include="WO\DesignCtl.cs" />
+    <Compile Include="WO\DesignDts.cs" />
+    <Compile Include="WO\DesignDtsCtl.cs" />
+    <Compile Include="WO\FabricProcess.cs" />
+    <Compile Include="WO\FabricProcessAdd.cs" />
+    <Compile Include="WO\FabricProcessAddCtl.cs" />
+    <Compile Include="WO\FabricProcessCtl.cs" />
+    <Compile Include="WO\FabricProcessDts.cs" />
+    <Compile Include="WO\FabricProcessDtsCtl.cs" />
+    <Compile Include="WO\FabricProcessItemDts.cs" />
+    <Compile Include="WO\FabricProcessItemDtsCtl.cs" />
+    <Compile Include="WO\FabricProcessPBDts.cs" />
+    <Compile Include="WO\FabricProcessPBDtsCtl.cs" />
+    <Compile Include="WO\FabricWHOutForm.cs" />
+    <Compile Include="WO\FabricWHOutFormCtl.cs" />
+    <Compile Include="WO\FabricWHOutFormDts.cs" />
+    <Compile Include="WO\FabricWHOutFormDtsCtl.cs" />
+    <Compile Include="WO\FabricWHOutFormDtsPack.cs" />
+    <Compile Include="WO\FabricWHOutFormDtsPackCtl.cs" />
+    <Compile Include="WO\FlowerTypeContol.cs" />
+    <Compile Include="WO\FlowerTypeContolCtl.cs" />
+    <Compile Include="WO\FlowerTypeContolDts.cs" />
+    <Compile Include="WO\FlowerTypeContolDtsCtl.cs" />
+    <Compile Include="WO\PrintingProcess.cs" />
+    <Compile Include="WO\PrintingProcessCtl.cs" />
+    <Compile Include="WO\PrintingProcessDts.cs" />
+    <Compile Include="WO\PrintingProcessDtsCtl.cs" />
+    <Compile Include="WO\ProductionPlan.cs" />
+    <Compile Include="WO\ProductionPlanCtl.cs" />
+    <Compile Include="WO\ProductionPlanDts.cs" />
+    <Compile Include="WO\ProductionPlanDts2.cs" />
+    <Compile Include="WO\ProductionPlanDts2Ctl.cs" />
+    <Compile Include="WO\ProductionPlanDtsCtl.cs" />
+    <Compile Include="WO\SOPlan.cs" />
+    <Compile Include="WO\SOPlanCtl.cs" />
+    <Compile Include="WO\TestReport.cs" />
+    <Compile Include="WO\TestReportCtl.cs" />
+    <Compile Include="WO\TestReportDts.cs" />
+    <Compile Include="WO\TestReportDtsCtl.cs" />
+    <Compile Include="WO\TowelProduction.cs" />
+    <Compile Include="WO\TowelProductionCtl.cs" />
+    <Compile Include="WO\TowelProductionPlan.cs" />
+    <Compile Include="WO\TowelProductionPlanCtl.cs" />
+    <Compile Include="WO\TowelProductionPlanDts.cs" />
+    <Compile Include="WO\TowelProductionPlanDtsCtl.cs" />
+    <Compile Include="WO\TowelProductionPlanDtsStep.cs" />
+    <Compile Include="WO\TowelProductionPlanDtsStepCtl.cs" />
+    <Compile Include="WO\TowelProductionPlanDtsStepProducts.cs" />
+    <Compile Include="WO\TowelProductionPlanDtsStepProductsCtl.cs" />
+    <Compile Include="WO\WeaveProcess.cs" />
+    <Compile Include="WO\WeaveProcessCtl.cs" />
+    <Compile Include="WO\WeaveProcessDts.cs" />
+    <Compile Include="WO\WeaveProcessDts2.cs" />
+    <Compile Include="WO\WeaveProcessDts2Ctl.cs" />
+    <Compile Include="WO\WeaveProcessDtsCtl.cs" />
+    <Compile Include="WO\YieldRecord.cs" />
+    <Compile Include="WO\YieldRecordCtl.cs" />
+    <Compile Include="WO\YieldRecordDts.cs" />
+    <Compile Include="WO\YieldRecordDtsCtl.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="HttSoft.Framework, Version=2.0.3106.27235, Culture=neutral, PublicKeyToken=cf243688fd30f25a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\MPLERP\IncludeDll\HttSoft.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HttSoft.MLTERP.Sys\HttSoft.MLTERP.Sys.csproj">
+      <Project>{0BB33D5D-21B5-4841-B1D6-4390A63A2B21}</Project>
+      <Name>HttSoft.MLTERP.Sys</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ClassDiagram3.cd" />
+    <None Include="ClassDiagram4.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

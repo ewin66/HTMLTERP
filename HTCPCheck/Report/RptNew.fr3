@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="4.6.80" DotMatrixReport="False" EngineOptions.UseFileCache="True" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Ô¤Éè" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="39755.9676983796" ReportOptions.Description.Text="" ReportOptions.LastChange="39979.8357902778" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="08446174617365747301010C1400000020446174615365744E616D653D224D61696E312200010C1400000020446174615365744E616D653D224D61696E322200010C1200000020446174615365744E616D653D22445453220000095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="SO" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="ReportTitle1" Height="64.25201" Left="0" Top="18.89765" Width="718.1107">
+      <TfrxMemoView Name="Memo2" Left="3.77953" Top="7.55906" Width="710.55164" Height="30.23624" ShowHint="False" Font.Charset="1" Font.Color="-16777208" Font.Height="-21" Font.Name="ËÎÌå" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="æ— é”¡å¯Œå£«æ—¶è£…æœ‰é™å…¬å¸"/>
+      <TfrxMemoView Name="Memo26" Left="3" Top="30.10235" Width="710.55164" Height="26.45671" ShowHint="False" Font.Charset="1" Font.Color="-16777208" Font.Height="-21" Font.Name="ËÎÌå" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="åŽŸæ–™é‡‡è´­å•"/>
+    </TfrxReportTitle>
+    <TfrxMasterData Name="MasterData1" Height="263.62987" Left="0" Top="143.62214" Width="718.1107" ColumnWidth="0" ColumnGap="0" DataSetName="Main1" RowCount="0">
+      <TfrxMemoView Name="Memo3" Left="23.89765" Top="54.18893" Width="90.70872" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="-16777208" Font.Height="-19" Font.Name="ËÎÌå" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="åˆ¶å•æ—¥æœŸ"/>
+      <TfrxLineView Name="Line2" Left="5" Top="45.85034" Width="710.55164" Height="0" ShowHint="False" Frame.Typ="4"/>
+      <TfrxLineView Name="Line5" Left="121.50402" Top="134.55906" Width="0" Height="-90.70872" ShowHint="False" Diagonal="True"/>
+      <TfrxLineView Name="Line8" Left="342.49629" Top="84.42517" Width="0" Height="-41.57483" ShowHint="False" Diagonal="True"/>
+      <TfrxLineView Name="Line11" Left="462.32313" Top="84.42517" Width="0" Height="-41.57483" ShowHint="False" Diagonal="True"/>
+      <TfrxLineView Name="Line22" Left="5" Top="5.05503999999999" Width="0" Height="216.27613" ShowHint="False" Frame.Typ="1"/>
+      <TfrxLineView Name="Line3" Left="5" Top="88.42517" Width="710.55164" Height="0" ShowHint="False" Frame.Typ="4"/>
+      <TfrxLineView Name="Line6" Left="5" Top="133.55906" Width="710.55164" Height="0" ShowHint="False" Frame.Typ="4"/>
+      <TfrxMemoView Name="Memo7" Left="23.89765" Top="103.32282" Width="90.70872" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="-16777208" Font.Height="-19" Font.Name="ËÎÌå" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="åŽŸ    æ–™"/>
+      <TfrxMemoView Name="Memo15" Left="23.89765" Top="8.83456999999998" Width="90.70872" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="-16777208" Font.Height="-19" Font.Name="ËÎÌå" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="ä¾› åº” å•†"/>
+      <TfrxMemoView Name="Memo23" Left="360.39394" Top="8.83456999999998" Width="90.70872" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="-16777208" Font.Height="-19" Font.Name="ËÎÌå" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="é‡‡è´­å•å·"/>
+      <TfrxMemoView Name="Memo4" Left="362.39394" Top="54.18893" Width="90.70872" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="-16777208" Font.Height="-19" Font.Name="ËÎÌå" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="å¸Œæœ›äº¤æœŸ"/>
+      <TfrxLineView Name="Line10" Left="342.49629" Top="133.55906" Width="0" Height="-52.91342" ShowHint="False" Diagonal="True"/>
+      <TfrxLineView Name="Line12" Left="462.32313" Top="133.55906" Width="0" Height="-86.92919" ShowHint="False" Diagonal="True"/>
+      <TfrxLineView Name="Line13" Left="5" Top="5.05503999999999" Width="710.55164" Height="0" ShowHint="False" Frame.Typ="4"/>
+      <TfrxLineView Name="Line7" Left="715.55164" Top="5.83457000000001" Width="0" Height="215.26036" ShowHint="False" Frame.Typ="1"/>
+      <TfrxLineView Name="Line9" Left="342.49629" Top="46.62987" Width="0" Height="-41.57483" ShowHint="False" Diagonal="True"/>
+      <TfrxLineView Name="Line23" Left="462.32313" Top="46.62987" Width="0" Height="-41.57483" ShowHint="False" Diagonal="True"/>
+      <TfrxLineView Name="Line26" Left="121.50402" Top="46.62987" Width="0" Height="-41.57483" ShowHint="False" Diagonal="True"/>
+      <TfrxLineView Name="Line27" Left="5" Top="178.66914" Width="710.55164" Height="0" ShowHint="False" Frame.Typ="4"/>
+      <TfrxLineView Name="Line28" Left="5" Top="221.66914" Width="710.55164" Height="0" ShowHint="False" Frame.Typ="4"/>
+      <TfrxLineView Name="Line29" Left="121.50402" Top="220.53525" Width="0" Height="-90.70872" ShowHint="False" Diagonal="True"/>
+      <TfrxLineView Name="Line30" Left="587.22047" Top="221.53525" Width="0" Height="-88.70872" ShowHint="False" Diagonal="True"/>
+      <TfrxMemoView Name="Memo1" Left="25.22047" Top="145.53525" Width="90.70872" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="-16777208" Font.Height="-19" Font.Name="ËÎÌå" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="å•    ä»·"/>
+      <TfrxMemoView Name="Memo5" Left="23.22047" Top="191.53525" Width="90.70872" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="-16777208" Font.Height="-19" Font.Name="ËÎÌå" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="ç”¨    é€”"/>
+      <TfrxMemoView Name="Memo6" Left="360.22047" Top="100.53525" Width="90.70872" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="-16777208" Font.Height="-19" Font.Name="ËÎÌå" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="å›žå¤äº¤æœŸ"/>
+      <TfrxMemoView Name="Memo8" Left="479.22047" Top="147.53525" Width="90.70872" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="-16777208" Font.Height="-19" Font.Name="ËÎÌå" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="ç±»    åž‹"/>
+      <TfrxMemoView Name="Memo10" Left="236.22047" Top="143.53525" Width="90.70872" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="-16777208" Font.Height="-19" Font.Name="ËÎÌå" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="å½¢   æ€"/>
+      <TfrxLineView Name="Line31" Left="462.32313" Top="221.53525" Width="0" Height="-88.70872" ShowHint="False" Diagonal="True"/>
+      <TfrxLineView Name="Line32" Left="342.49629" Top="220.53525" Width="0" Height="-88.70872" ShowHint="False" Diagonal="True"/>
+      <TfrxLineView Name="Line33" Left="228.22047" Top="221.53525" Width="0" Height="-88.70872" ShowHint="False" Diagonal="True"/>
+      <TfrxMemoView Name="Memo9" Left="235.22047" Top="190.53525" Width="96.70872" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="-16777208" Font.Height="-19" Font.Name="ËÎÌå" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="å¤§è´§ç³»åˆ—å·"/>
+      <TfrxMemoView Name="Memo11" Left="477.22047" Top="191.53525" Width="99.70872" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="-16777208" Font.Height="-19" Font.Name="ËÎÌå" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="æ ·è¡£ç³»åˆ—å·"/>
+      <TfrxLineView Name="Line41" Left="5" Top="263.62987" Width="710.55164" Height="0" ShowHint="False" Frame.Typ="4"/>
+      <TfrxLineView Name="Line42" Left="79.37013" Top="262.62987" Width="0" Height="-41.57483" ShowHint="False" Diagonal="True"/>
+      <TfrxMemoView Name="Memo21" Left="10.44094" Top="233.39363" Width="56.69295" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="-16777208" Font.Height="-12" Font.Name="ËÎÌå" Font.Style="0" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="è‰²å·"/>
+      <TfrxMemoView Name="Memo22" Left="87.48825" Top="234.39363" Width="56.69295" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="-16777208" Font.Height="-12" Font.Name="ËÎÌå" Font.Style="0" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="è‰²å"/>
+      <TfrxMemoView Name="Memo14" Left="174.9765" Top="233.39363" Width="56.69295" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="-16777208" Font.Height="-12" Font.Name="ËÎÌå" Font.Style="0" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="æŸ“åŽ‚è‰²å·"/>
+      <TfrxMemoView Name="Memo24" Left="251.78757" Top="233.39363" Width="51.01577" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="-16777208" Font.Height="-12" Font.Name="ËÎÌå" Font.Style="0" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="ç¡®è®¤ç‰ˆåˆ«"/>
+      <TfrxLineView Name="Line44" Left="240.78757" Top="262.62987" Width="0" Height="-41.57483" ShowHint="False" Diagonal="True"/>
+      <TfrxLineView Name="Line45" Left="311.14193" Top="262.62987" Width="0" Height="-41.57483" ShowHint="False" Diagonal="True"/>
+      <TfrxLineView Name="Line47" Left="468.66172" Top="262.62987" Width="0" Height="-41.57483" ShowHint="False" Diagonal="True"/>
+      <TfrxLineView Name="Line48" Left="530.35467" Top="262.62987" Width="0" Height="-41.57483" ShowHint="False" Diagonal="True"/>
+      <TfrxLineView Name="Line49" Left="5" Top="222.05504" Width="0" Height="41.57483" ShowHint="False" Frame.Typ="1"/>
+      <TfrxLineView Name="Line50" Left="715.55164" Top="222.05504" Width="0" Height="41.57483" ShowHint="False" Frame.Typ="1"/>
+      <TfrxMemoView Name="Memo16" Left="319.92146" Top="233.39363" Width="49.13389" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="-16777208" Font.Height="-12" Font.Name="ËÎÌå" Font.Style="0" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="å¿…è¦é‡"/>
+      <TfrxMemoView Name="Memo17" Left="401.953" Top="233.39363" Width="47.37013" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="-16777208" Font.Height="-12" Font.Name="ËÎÌå" Font.Style="0" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="åº“å­˜é‡"/>
+      <TfrxMemoView Name="Memo18" Left="473.66172" Top="233.39363" Width="41.57483" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="-16777208" Font.Height="-12" Font.Name="ËÎÌå" Font.Style="0" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="å‘æ³¨é‡"/>
+      <TfrxLineView Name="Line51" Left="587.22047" Top="262.62987" Width="0" Height="-41.57483" ShowHint="False" Diagonal="True"/>
+      <TfrxLineView Name="Line52" Left="647.5201" Top="262.62987" Width="0" Height="-41.57483" ShowHint="False" Diagonal="True"/>
+      <TfrxMemoView Name="Memo19" Left="533.1342" Top="233.39363" Width="41.57483" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="-16777208" Font.Height="-12" Font.Name="ËÎÌå" Font.Style="0" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="å…¥åº“é‡"/>
+      <TfrxMemoView Name="Memo20" Left="594.60668" Top="233.39363" Width="41.57483" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="-16777208" Font.Height="-12" Font.Name="ËÎÌå" Font.Style="0" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="è¯¯å·®"/>
+      <TfrxMemoView Name="Memo25" Left="662.63822" Top="233.39363" Width="41.57483" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="-16777208" Font.Height="-12" Font.Name="ËÎÌå" Font.Style="0" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="è¡Œå¤‡æ³¨"/>
+      <TfrxMemoView Name="Memo27" Left="147" Top="13.37786" Width="154.57483" Height="18.89765" ShowHint="False" DataField="CompanyName" DataSetName="Main1" Font.Charset="1" Font.Color="-16777208" Font.Height="-12" Font.Name="ËÎÌå" Font.Style="0" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="[Main1.&#34;CompanyName&#34;]"/>
+      <TfrxMemoView Name="Main1CompactNo" Left="505" Top="18.37786" Width="151.37013" Height="18.89765" ShowHint="False" DataField="CompactNo" DataSetName="Main1" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[Main1.&#34;CompactNo&#34;]"/>
+      <TfrxMemoView Name="Main1CompactDate" Left="147" Top="60.37786" Width="159.37013" Height="18.89765" ShowHint="False" DataField="CompactDate" DataSetName="Main1" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[Main1.&#34;CompactDate&#34;]"/>
+      <TfrxMemoView Name="Main1ItemName" Left="148" Top="101.37786" Width="127.37013" Height="18.89765" ShowHint="False" DataField="ItemName" DataSetName="Main1" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[Main1.&#34;ItemName&#34;]"/>
+      <TfrxMemoView Name="Main1SinglePrice" Left="136" Top="148.37786" Width="79.37013" Height="18.89765" ShowHint="False" DataField="SinglePrice" DataSetName="Main1" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[Main1.&#34;SinglePrice&#34;]"/>
+      <TfrxMemoView Name="Main1YarnStatus" Left="364" Top="148.37786" Width="79.37013" Height="18.89765" ShowHint="False" DataField="YarnStatus" DataSetName="Main1" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[Main1.&#34;YarnStatus&#34;]"/>
+      <TfrxMemoView Name="Main1YarnTypeID" Left="614" Top="144.37786" Width="79.37013" Height="18.89765" ShowHint="False" DataField="YarnTypeID" DataSetName="Main1" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[Main1.&#34;YarnTypeID&#34;]"/>
+      <TfrxMemoView Name="Main1Useful" Left="140" Top="191.37786" Width="79.37013" Height="18.89765" ShowHint="False" DataField="Useful" DataSetName="Main1" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[Main1.&#34;Useful&#34;]"/>
+      <TfrxMemoView Name="Main2DSN" Left="364" Top="187.37786" Width="79.37013" Height="18.89765" ShowHint="False" DataField="DSN" DataSetName="Main2" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[Main2.&#34;DSN&#34;]"/>
+      <TfrxMemoView Name="Main2SSN" Left="612" Top="189.37786" Width="79.37013" Height="18.89765" ShowHint="False" DataField="SSN" DataSetName="Main2" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[Main2.&#34;SSN&#34;]"/>
+      <TfrxMemoView Name="Main2ReqDate" Left="515" Top="54.37786" Width="79.37013" Height="18.89765" ShowHint="False" DataField="ReqDate" DataSetName="Main2" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[Main2.&#34;ReqDate&#34;]"/>
+      <TfrxMemoView Name="Main2ReqDate1" Left="519" Top="100.37786" Width="79.37013" Height="18.89765" ShowHint="False" DataField="ReqDate" DataSetName="Main2" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[Main2.&#34;ReqDate&#34;]"/>
+      <TfrxLineView Name="Line43" Left="162.41744" Top="262.62987" Width="0" Height="-41.57483" ShowHint="False" Diagonal="True"/>
+      <TfrxLineView Name="Line46" Left="395.17347" Top="262.62987" Width="0" Height="-41.57483" ShowHint="False" Diagonal="True"/>
+    </TfrxMasterData>
+    <TfrxDetailData Name="DetailData1" Height="48.45671" Left="0" Top="430.86642" Width="718.1107" ColumnWidth="0" ColumnGap="0" DataSetName="DTS" RowCount="0">
+      <TfrxLineView Name="Line1" Left="5" Top="26.4567099999999" Width="710.55164" Height="0" ShowHint="False" Frame.Typ="4"/>
+      <TfrxLineView Name="Line4" Left="79.37013" Top="26.4567099999999" Width="0" Height="-49.13389" ShowHint="False" Diagonal="True"/>
+      <TfrxLineView Name="Line15" Left="240.78757" Top="26.4567099999999" Width="0" Height="-49.13389" ShowHint="False" Diagonal="True"/>
+      <TfrxLineView Name="Line16" Left="311.14193" Top="26.4567099999999" Width="0" Height="-52.91342" ShowHint="False" Diagonal="True"/>
+      <TfrxLineView Name="Line17" Left="395.17347" Top="26.4567099999999" Width="0" Height="-49.13389" ShowHint="False" Diagonal="True"/>
+      <TfrxLineView Name="Line18" Left="468.66172" Top="26.4567099999999" Width="0" Height="-52.91342" ShowHint="False" Diagonal="True"/>
+      <TfrxLineView Name="Line20" Left="715.55164" Top="25.4567099999999" Width="0" Height="-49.13389" ShowHint="False" Diagonal="True"/>
+      <TfrxLineView Name="Line21" Left="5" Top="26.45671" Width="0" Height="-49.13389" ShowHint="False" Diagonal="True"/>
+      <TfrxLineView Name="Line24" Left="587.22047" Top="26.45671" Width="0" Height="-52.91342" ShowHint="False" Diagonal="True"/>
+      <TfrxMemoView Name="DTSColorNum" Left="18" Top="4.35404999999997" Width="41.57483" Height="18.89765" ShowHint="False" DataField="ColorNum" DataSetName="DTS" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[DTS.&#34;ColorNum&#34;]"/>
+      <TfrxMemoView Name="DTSColorName" Left="96.937075" Top="4.35404999999997" Width="37.7953" Height="18.89765" ShowHint="False" DataField="ColorName" DataSetName="DTS" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[DTS.&#34;ColorName&#34;]"/>
+      <TfrxMemoView Name="DTSDesignNo" Left="182.53556" Top="4.35404999999997" Width="41.57483" Height="18.89765" ShowHint="False" DataField="DesignNo" DataSetName="DTS" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[DTS.&#34;DesignNo&#34;]"/>
+      <TfrxMemoView Name="DTSEditionNo" Left="258.397805" Top="4.35404999999997" Width="37.7953" Height="18.89765" ShowHint="False" DataField="EditionNo" DataSetName="DTS" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[DTS.&#34;EditionNo&#34;]"/>
+      <TfrxMemoView Name="Memo28" Left="321.811225" Top="4.35404999999997" Width="45.35436" Height="18.89765" ShowHint="False" DataField="Qty" DataSetName="DTS" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[DTS.&#34;Qty&#34;]"/>
+      <TfrxMemoView Name="DTSWHQty" Left="406" Top="4.35404999999997" Width="45.35436" Height="18.89765" ShowHint="False" DataField="WHQty" DataSetName="DTS" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[DTS.&#34;WHQty&#34;]"/>
+      <TfrxMemoView Name="DTSFZQty" Left="482" Top="4.35404999999997" Width="34.01577" Height="18.89765" ShowHint="False" DataField="FZQty" DataSetName="DTS" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[DTS.&#34;FZQty&#34;]"/>
+      <TfrxMemoView Name="DTSInWHQty" Left="537" Top="4.35404999999997" Width="37.7953" Height="18.89765" ShowHint="False" DataField="InWHQty" DataSetName="DTS" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[DTS.&#34;InWHQty&#34;]"/>
+      <TfrxMemoView Name="DTSDiffValue" Left="597" Top="4.35404999999997" Width="45.35436" Height="18.89765" ShowHint="False" DataField="DiffValue" DataSetName="DTS" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[DTS.&#34;DiffValue&#34;]"/>
+      <TfrxMemoView Name="DTSRemark" Left="662" Top="4.35404999999997" Width="37.7953" Height="18.89765" ShowHint="False" DataField="Remark" DataSetName="DTS" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[DTS.&#34;Remark&#34;]"/>
+      <TfrxLineView Name="Line14" Left="162.41744" Top="27.4567099999999" Width="0" Height="-49.13389" ShowHint="False" Diagonal="True"/>
+      <TfrxLineView Name="Line19" Left="530.35467" Top="27.4567099999999" Width="0" Height="-52.91342" ShowHint="False" Diagonal="True"/>
+      <TfrxLineView Name="Line25" Left="647.5201" Top="26.45671" Width="0" Height="-52.91342" ShowHint="False" Diagonal="True"/>
+    </TfrxDetailData>
+    <TfrxMasterData Name="MasterData2" Height="219.21274" Left="0" Top="502.67749" Width="718.1107" ColumnWidth="0" ColumnGap="0" DataSetName="Main2" RowCount="0">
+      <TfrxLineView Name="Line34" Left="5" Top="160.00773" Width="710.55164" Height="0" ShowHint="False" Frame.Typ="4"/>
+      <TfrxLineView Name="Line35" Left="5" Top="8.33828" Width="710.55164" Height="0" ShowHint="False" Frame.Typ="4"/>
+      <TfrxLineView Name="Line36" Left="5" Top="50.4013600000001" Width="710.55164" Height="0" ShowHint="False" Frame.Typ="4"/>
+      <TfrxMemoView Name="Memo35" Left="363.89765" Top="19.4564000000001" Width="87.58287" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="-16777208" Font.Height="-19" Font.Name="ËÎÌå" Font.Style="0" ParentFont="False" Text="ä»˜æ¬¾æ¡ä»¶"/>
+      <TfrxMemoView Name="Memo37" Left="30.89765" Top="57.9604199999999" Width="89.04731" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="-16777208" Font.Height="-19" Font.Name="ËÎÌå" Font.Style="0" ParentFont="False" Text="å¤‡    æ³¨"/>
+      <TfrxMemoView Name="Memo39" Left="25.89765" Top="171.34632" Width="68.03154" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="-16777208" Font.Height="-16" Font.Name="ËÎÌå" Font.Style="0" ParentFont="False" Text="æ‹…å½“"/>
+      <TfrxMemoView Name="Memo43" Left="483.7483" Top="172.34632" Width="64.25201" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="-16777208" Font.Height="-16" Font.Name="ËÎÌå" Font.Style="0" ParentFont="False" Text="å®¡æ ¸"/>
+      <TfrxMemoView Name="Memo12" Left="253.22047" Top="172.21181" Width="68.03154" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="-16777208" Font.Height="-16" Font.Name="ËÎÌå" Font.Style="0" ParentFont="False" Text="ä¸»ç®¡"/>
+      <TfrxLineView Name="Line37" Left="132.22047" Top="50.2118100000001" Width="0" Height="-41.57483" ShowHint="False" Diagonal="True"/>
+      <TfrxLineView Name="Line38" Left="342.22047" Top="50.2118100000001" Width="0" Height="-41.57483" ShowHint="False" Diagonal="True"/>
+      <TfrxLineView Name="Line39" Left="464.22047" Top="50.2118100000001" Width="0" Height="-41.57483" ShowHint="False" Diagonal="True"/>
+      <TfrxMemoView Name="Memo13" Left="28.88188" Top="18.44805" Width="87.58287" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="-16777208" Font.Height="-19" Font.Name="ËÎÌå" Font.Style="0" ParentFont="False" Text="åˆè®¡é‡‘é¢"/>
+      <TfrxMemoView Name="Main2TotalAmount" Left="183" Top="23.54298" Width="79.37013" Height="18.89765" ShowHint="False" DataField="TotalAmount" DataSetName="Main2" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[Main2.&#34;TotalAmount&#34;]"/>
+      <TfrxMemoView Name="Main2PayCondition" Left="546" Top="18.54298" Width="79.37013" Height="18.89765" ShowHint="False" DataField="PayCondition" DataSetName="Main2" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[Main2.&#34;PayCondition&#34;]"/>
+      <TfrxMemoView Name="Main2Remark" Left="30" Top="93.54298" Width="664.37013" Height="42.89765" ShowHint="False" DataField="Remark" DataSetName="Main2" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[Main2.&#34;Remark&#34;]"/>
+      <TfrxLineView Name="Line40" Left="-10" Top="11.54298" Width="0" Height="-49.13389" ShowHint="False" Diagonal="True"/>
+      <TfrxLineView Name="Line53" Left="5" Top="50.54298" Width="0" Height="-41.57483" ShowHint="False" Diagonal="True"/>
+      <TfrxLineView Name="Line54" Left="715.55164" Top="48.54298" Width="0" Height="-41.57483" ShowHint="False" Diagonal="True"/>
+      <TfrxLineView Name="Line55" Left="5" Top="48.54298" Width="0" Height="110.44929" ShowHint="False" Frame.Typ="1"/>
+      <TfrxLineView Name="Line56" Left="715.55164" Top="50.54298" Width="0" Height="110.44929" ShowHint="False" Frame.Typ="1"/>
+    </TfrxMasterData>
+  </TfrxReportPage>
+</TfrxReport>
